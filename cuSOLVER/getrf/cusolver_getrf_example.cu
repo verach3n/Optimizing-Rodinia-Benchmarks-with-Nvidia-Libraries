@@ -182,6 +182,12 @@ int main(int argc, char *argv[]) {
     // print_matrix(m, m, LU.data(), lda);
     // printf("=====\n");
 
+
+    /*************************************************
+     uncomment this if you are also doing guassian 
+     **************************************************/
+
+
     /*
      * step 5: solve A*X = B
      *       | 1 |       | -0.3333 |

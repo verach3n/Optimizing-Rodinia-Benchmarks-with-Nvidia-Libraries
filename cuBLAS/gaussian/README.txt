@@ -58,5 +58,7 @@ The kernel 2 has square shape
 The actually dimension = RD_WG_SIZE_1_0 * RD_WG_SIZE_1_1
 
 USAGE:
+Go into the required folder ( regular / pinnedm / managedm ) and run these commands:
 make clean
 make KERNEL_DIM="-DRD_WG_SIZE_0=128 -DRD_WG_SIZE_1=16 "
+./gaussian_regularm 16 (or) ./gaussian_pinnedm 16 (or) ./gaussian_managedm 16 depending on the folder

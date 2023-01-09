@@ -12,3 +12,12 @@
 
 -tools
   Tools to generate input matrix with random number.
+
+USAGE:
+Go into cuda folder
+```
+cd cuda
+```
+make clean
+
+make KERNEL_DIM="-DRD_WG_SIZE_0=16"
