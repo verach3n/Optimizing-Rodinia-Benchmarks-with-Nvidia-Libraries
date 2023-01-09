@@ -1,0 +1,803 @@
+==48116== NVPROF is profiling process 48116, command: ./gaussian_managedm 102400
+==48116== Profiling application: ./gaussian_managedm 102400
+==48116== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   64.06%  951.58ms         5  190.32ms  8.9950us  655.30ms  cudaFree
+                   28.62%  425.06ms         6  70.843ms     185ns  404.75ms  cudaMallocManaged
+                    7.20%  106.97ms       297  360.18us     130ns  106.06ms  cuDeviceGetAttribute
+                    0.08%  1.2299ms         3  409.97us  338.52us  532.86us  cuDeviceTotalMem
+                   0.02%  347.39us         3  115.80us  5.7790us  213.81us  cudaMalloc
+                    0.01%  98.631us         3  32.877us  28.295us  38.280us  cuDeviceGetName
+                     0.00%  32.587us        12  2.7150us     462ns  13.209us  cudaDeviceGetAttribute
+                    0.00%  23.412us        18  1.3000us     602ns  7.8200us  cudaEventCreateWithFlags
+                    0.00%  14.843us         4  3.7100us  1.5880us  7.2590us  cudaDeviceSynchronize
+                    0.00%  12.086us        18     671ns     481ns  1.8910us  cudaEventDestroy
+                    0.00%  9.5830us         3  3.1940us     667ns  6.2380us  cudaGetDevice
+                    0.00%  5.1870us         2  2.5930us  2.0280us  3.1590us  cuInit
+                    0.00%  4.9670us         1  4.9670us  4.9670us  4.9670us  cuDeviceGetPCIBusId
+                    0.00%  2.0670us         4     516ns     318ns  1.0400us  cuDeviceGet
+                    0.00%  1.9890us         5     397ns     130ns     861ns  cuDeviceGetCount
+                    0.00%  1.3930us         1  1.3930us  1.3930us  1.3930us  cudaGetSymbolAddress
+                    0.00%  1.1640us         2     582ns     494ns     670ns  cuDriverGetVersion
+                    0.00%  1.0330us         3     344ns     337ns     359ns  cuDeviceGetUuid
+
+==48116== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48142== NVPROF is profiling process 48142, command: ./gaussian_managedm 112640
+==48142== Profiling application: ./gaussian_managedm 112640
+==48142== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.22%  940.72ms         5  188.14ms  11.680us  634.52ms  cudaFree
+                   36.59%  544.50ms         6  90.751ms     340ns  524.17ms  cudaMallocManaged
+                    0.11%  1.6380ms         3  546.00us  383.21us  656.58us  cuDeviceTotalMem
+                    0.04%  588.29us       297  1.9800us     137ns  102.05us  cuDeviceGetAttribute
+                    0.02%  364.72us         3  121.57us  6.2010us  222.86us  cudaMalloc
+                    0.01%  108.22us         3  36.071us  32.127us  41.772us  cuDeviceGetName
+                    0.00%  25.784us        18  1.4320us     607ns  9.5030us  cudaEventCreateWithFlags
+                    0.00%  18.174us         4  4.5430us  1.9230us  9.2720us  cudaDeviceSynchronize
+                    0.00%  13.325us        18     740ns     503ns  2.3730us  cudaEventDestroy
+                    0.00%  8.9490us         3  2.9830us     700ns  5.8800us  cudaGetDevice
+                    0.00%  8.4390us         1  8.4390us  8.4390us  8.4390us  cuDeviceGetPCIBusId
+                    0.00%  8.1090us        12     675ns     405ns  2.3060us  cudaDeviceGetAttribute
+                    0.00%  6.8860us         2  3.4430us  2.4680us  4.4180us  cuInit
+                    0.00%  2.8350us         5     567ns     278ns  1.1790us  cuDeviceGetCount
+                    0.00%  2.4470us         4     611ns     418ns  1.0900us  cuDeviceGet
+                    0.00%  1.6990us         1  1.6990us  1.6990us  1.6990us  cudaGetSymbolAddress
+                    0.00%  1.1460us         2     573ns     563ns     583ns  cuDriverGetVersion
+                    0.00%     994ns         3     331ns     304ns     345ns  cuDeviceGetUuid
+
+==48142== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48174== NVPROF is profiling process 48174, command: ./gaussian_managedm 122880
+==48174== Profiling application: ./gaussian_managedm 122880
+==48174== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   64.88%  950.84ms         5  190.17ms  9.2770us  642.12ms  cudaFree
+                   27.87%  408.39ms         6  68.064ms     203ns  388.07ms  cudaMallocManaged
+                    7.00%  102.60ms         3  34.199ms  32.351us  102.53ms  cuDeviceGetName
+                    0.14%  2.0555ms         3  685.16us  556.13us  937.46us  cuDeviceTotalMem
+                    0.08%  1.1181ms       297  3.7640us     157ns  432.04us  cuDeviceGetAttribute
+                    0.02%  352.83us         3  117.61us  5.5820us  199.66us  cudaMalloc
+                    0.00%  25.561us        18  1.4200us     572ns  8.3830us  cudaEventCreateWithFlags
+                    0.00%  16.913us        18     939ns     550ns  5.4790us  cudaEventDestroy
+                    0.00%  14.333us         4  3.5830us  1.6070us  6.6390us  cudaDeviceSynchronize
+                    0.00%  8.3750us         3  2.7910us     678ns  5.5570us  cudaGetDevice
+                    0.00%  7.4450us        12     620ns     458ns  1.5080us  cudaDeviceGetAttribute
+                    0.00%  6.0800us         2  3.0400us  2.5350us  3.5450us  cuInit
+                    0.00%  5.5700us         1  5.5700us  5.5700us  5.5700us  cuDeviceGetPCIBusId
+                    0.00%  2.8480us         5     569ns     269ns  1.0910us  cuDeviceGetCount
+                    0.00%  2.2310us         4     557ns     306ns  1.1710us  cuDeviceGet
+                    0.00%  1.3450us         1  1.3450us  1.3450us  1.3450us  cudaGetSymbolAddress
+                    0.00%  1.3360us         2     668ns     651ns     685ns  cuDriverGetVersion
+                    0.00%     970ns         3     323ns     280ns     375ns  cuDeviceGetUuid
+
+==48174== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48210== NVPROF is profiling process 48210, command: ./gaussian_managedm 133120
+==48210== Profiling application: ./gaussian_managedm 133120
+==48210== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.76%  931.40ms         5  186.28ms  13.128us  638.88ms  cudaFree
+                   29.11%  425.27ms         6  70.879ms     142ns  404.97ms  cudaMallocManaged
+                    6.96%  101.67ms         3  33.890ms  34.659us  101.59ms  cuDeviceGetName
+                    0.10%  1.4668ms         3  488.93us  383.85us  546.06us  cuDeviceTotalMem
+                    0.04%  570.57us       297  1.9210us     135ns  91.072us  cuDeviceGetAttribute
+                    0.02%  354.54us         3  118.18us  5.6870us  211.53us  cudaMalloc
+                    0.00%  28.068us        18  1.5590us     615ns  10.247us  cudaEventCreateWithFlags
+                    0.00%  19.957us         4  4.9890us  1.7970us  9.7310us  cudaDeviceSynchronize
+                    0.00%  13.730us        18     762ns     540ns  2.3200us  cudaEventDestroy
+                    0.00%  11.946us         3  3.9820us     616ns  8.6400us  cudaGetDevice
+                    0.00%  8.8010us        12     733ns     413ns  2.7430us  cudaDeviceGetAttribute
+                    0.00%  8.3620us         1  8.3620us  8.3620us  8.3620us  cuDeviceGetPCIBusId
+                    0.00%  6.3400us         2  3.1700us  2.8640us  3.4760us  cuInit
+                    0.00%  3.7300us         5     746ns     231ns  1.9370us  cuDeviceGetCount
+                    0.00%  2.2090us         4     552ns     254ns  1.1200us  cuDeviceGet
+                    0.00%  2.0640us         1  2.0640us  2.0640us  2.0640us  cudaGetSymbolAddress
+                    0.00%  1.9960us         2     998ns     860ns  1.1360us  cuDriverGetVersion
+                    0.00%     973ns         3     324ns     282ns     363ns  cuDeviceGetUuid
+
+==48210== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48240== NVPROF is profiling process 48240, command: ./gaussian_managedm 143360
+==48240== Profiling application: ./gaussian_managedm 143360
+==48240== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.37%  931.94ms         5  186.39ms  9.3750us  612.04ms  cudaFree
+                   36.40%  535.33ms         6  89.221ms     156ns  515.02ms  cudaMallocManaged
+                    0.14%  2.0167ms         3  672.25us  546.13us  775.66us  cuDeviceTotalMem
+                    0.05%  675.93us       297  2.2750us     158ns  98.045us  cuDeviceGetAttribute
+                    0.02%  341.25us         3  113.75us  5.3940us  212.16us  cudaMalloc
+                    0.01%  122.03us         3  40.677us  36.393us  47.823us  cuDeviceGetName
+                    0.00%  23.588us        18  1.3100us     646ns  8.4390us  cudaEventCreateWithFlags
+                    0.00%  19.756us        18  1.0970us     594ns  6.8710us  cudaEventDestroy
+                    0.00%  14.914us         4  3.7280us  1.6940us  8.0120us  cudaDeviceSynchronize
+                    0.00%  11.086us         3  3.6950us     788ns  7.0180us  cudaGetDevice
+                    0.00%  9.4190us        12     784ns     531ns  1.8690us  cudaDeviceGetAttribute
+                    0.00%  7.3120us         1  7.3120us  7.3120us  7.3120us  cuDeviceGetPCIBusId
+                    0.00%  5.9170us         2  2.9580us  2.3490us  3.5680us  cuInit
+                    0.00%  2.4710us         5     494ns     156ns     817ns  cuDeviceGetCount
+                    0.00%  2.0890us         4     522ns     400ns     860ns  cuDeviceGet
+                    0.00%  1.6190us         2     809ns     689ns     930ns  cuDriverGetVersion
+                    0.00%  1.5960us         1  1.5960us  1.5960us  1.5960us  cudaGetSymbolAddress
+                    0.00%  1.2020us         3     400ns     354ns     485ns  cuDeviceGetUuid
+
+==48240== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48270== NVPROF is profiling process 48270, command: ./gaussian_managedm 153600
+==48270== Profiling application: ./gaussian_managedm 153600
+==48270== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   70.42%  922.98ms         5  184.60ms  8.4410us  630.11ms  cudaFree
+                   29.12%  381.61ms         6  63.601ms     271ns  361.24ms  cudaMallocManaged
+                    0.24%  3.1685ms         3  1.0562ms  39.169us  3.0884ms  cuDeviceGetName
+                    0.11%  1.4973ms         3  499.11us  447.80us  529.96us  cuDeviceTotalMem
+                    0.07%  913.94us       297  3.0770us     167ns  276.44us  cuDeviceGetAttribute
+                    0.03%  332.18us         3  110.73us  5.5640us  200.27us  cudaMalloc
+                    0.00%  24.636us        18  1.3680us     641ns  9.3960us  cudaEventCreateWithFlags
+                    0.00%  14.266us         4  3.5660us  1.7010us  6.9560us  cudaDeviceSynchronize
+                    0.00%  12.915us        18     717ns     561ns  2.1900us  cudaEventDestroy
+                    0.00%  9.8940us         3  3.2980us     570ns  6.9980us  cudaGetDevice
+                    0.00%  8.7400us        12     728ns     522ns  1.9640us  cudaDeviceGetAttribute
+                    0.00%  7.1870us         1  7.1870us  7.1870us  7.1870us  cuDeviceGetPCIBusId
+                    0.00%  6.7740us         2  3.3870us  2.5220us  4.2520us  cuInit
+                    0.00%  3.2980us         5     659ns     252ns  1.3400us  cuDeviceGetCount
+                    0.00%  1.8920us         4     473ns     208ns     837ns  cuDeviceGet
+                    0.00%  1.7860us         2     893ns     790ns     996ns  cuDriverGetVersion
+                    0.00%  1.4270us         1  1.4270us  1.4270us  1.4270us  cudaGetSymbolAddress
+                    0.00%  1.0770us         3     359ns     302ns     406ns  cuDeviceGetUuid
+
+==48270== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48302== NVPROF is profiling process 48302, command: ./gaussian_managedm 163840
+==48302== Profiling application: ./gaussian_managedm 163840
+==48302== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   70.97%  950.25ms         5  190.05ms  8.4250us  616.43ms  cudaFree
+                   28.43%  380.63ms         6  63.438ms     273ns  360.29ms  cudaMallocManaged
+                    0.41%  5.4686ms         3  1.8229ms  39.122us  5.3883ms  cuDeviceGetName
+                    0.12%  1.6483ms         3  549.42us  348.54us  678.39us  cuDeviceTotalMem
+                    0.05%  615.52us       297  2.0720us     129ns  99.242us  cuDeviceGetAttribute
+                    0.02%  310.07us         3  103.36us  5.5400us  179.88us  cudaMalloc
+                    0.00%  23.680us        18  1.3150us     618ns  7.8430us  cudaEventCreateWithFlags
+                    0.00%  14.625us         4  3.6560us  1.6980us  7.4910us  cudaDeviceSynchronize
+                    0.00%  13.206us         1  13.206us  13.206us  13.206us  cuDeviceGetPCIBusId
+                    0.00%  13.161us        18     731ns     479ns  2.2690us  cudaEventDestroy
+                    0.00%  11.576us         3  3.8580us     729ns  8.5530us  cudaGetDevice
+                    0.00%  8.7850us        12     732ns     528ns  1.8250us  cudaDeviceGetAttribute
+                    0.00%  7.4570us         2  3.7280us  3.0860us  4.3710us  cuInit
+                    0.00%  3.0360us         5     607ns     195ns  1.7290us  cuDeviceGetCount
+                    0.00%  2.0160us         4     504ns     226ns     942ns  cuDeviceGet
+                    0.00%  1.6070us         2     803ns     643ns     964ns  cuDriverGetVersion
+                    0.00%  1.3530us         1  1.3530us  1.3530us  1.3530us  cudaGetSymbolAddress
+                    0.00%  1.0290us         3     343ns     255ns     408ns  cuDeviceGetUuid
+
+==48302== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48339== NVPROF is profiling process 48339, command: ./gaussian_managedm 174080
+==48339== Profiling application: ./gaussian_managedm 174080
+==48339== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   71.91%  967.41ms         5  193.48ms  7.7770us  666.07ms  cudaFree
+                   27.70%  372.63ms         6  62.105ms     261ns  352.29ms  cudaMallocManaged
+                    0.16%  2.1999ms         3  733.30us  4.4240us  1.1762ms  cudaMalloc
+                    0.11%  1.4561ms         3  485.36us  396.61us  537.93us  cuDeviceTotalMem
+                    0.10%  1.3828ms       297  4.6550us     157ns  570.29us  cuDeviceGetAttribute
+                    0.01%  125.47us         3  41.823us  38.872us  44.819us  cuDeviceGetName
+                    0.00%  18.150us        18  1.0080us     377ns  7.8630us  cudaEventCreateWithFlags
+                    0.00%  16.893us         4  4.2230us  1.2680us  7.8170us  cudaDeviceSynchronize
+                    0.00%  8.8710us        18     492ns     350ns  2.0300us  cudaEventDestroy
+                    0.00%  8.0810us         3  2.6930us     613ns  5.4960us  cudaGetDevice
+                    0.00%  7.6620us         2  3.8310us  3.1950us  4.4670us  cuInit
+                    0.00%  6.1900us         1  6.1900us  6.1900us  6.1900us  cuDeviceGetPCIBusId
+                    0.00%  5.3100us        12     442ns     280ns  1.5450us  cudaDeviceGetAttribute
+                    0.00%  3.6240us         5     724ns     284ns  1.6830us  cuDeviceGetCount
+                    0.00%  2.2370us         4     559ns     343ns  1.0240us  cuDeviceGet
+                    0.00%  1.7880us         2     894ns     823ns     965ns  cuDriverGetVersion
+                    0.00%  1.0660us         1  1.0660us  1.0660us  1.0660us  cudaGetSymbolAddress
+                    0.00%  1.0180us         3     339ns     326ns     355ns  cuDeviceGetUuid
+
+==48339== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48358== NVPROF is profiling process 48358, command: ./gaussian_managedm 184320
+==48358== Profiling application: ./gaussian_managedm 184320
+==48358== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   64.36%  920.45ms         5  184.09ms  11.214us  642.05ms  cudaFree
+                   35.46%  507.24ms         6  84.540ms     314ns  486.90ms  cudaMallocManaged
+                    0.10%  1.4970ms         3  499.02us  366.78us  575.21us  cuDeviceTotalMem
+                    0.04%  559.85us       297  1.8850us     132ns  85.680us  cuDeviceGetAttribute
+                    0.02%  322.32us         3  107.44us  5.6000us  184.85us  cudaMalloc
+                    0.01%  96.645us         3  32.215us  28.920us  34.936us  cuDeviceGetName
+                    0.00%  26.716us        18  1.4840us     651ns  8.7260us  cudaEventCreateWithFlags
+                    0.00%  21.991us         3  7.3300us     622ns  15.557us  cudaGetDevice
+                    0.00%  14.909us         4  3.7270us  1.8290us  7.4830us  cudaDeviceSynchronize
+                    0.00%  14.196us        18     788ns     606ns  1.9360us  cudaEventDestroy
+                    0.00%  8.6680us        12     722ns     480ns  2.2500us  cudaDeviceGetAttribute
+                    0.00%  6.9770us         1  6.9770us  6.9770us  6.9770us  cuDeviceGetPCIBusId
+                    0.00%  6.2780us         2  3.1390us  2.6460us  3.6320us  cuInit
+                    0.00%  2.4020us         4     600ns     436ns     993ns  cuDeviceGet
+                    0.00%  2.1770us         5     435ns     182ns     752ns  cuDeviceGetCount
+                    0.00%  1.4310us         2     715ns     500ns     931ns  cuDriverGetVersion
+                    0.00%  1.3150us         1  1.3150us  1.3150us  1.3150us  cudaGetSymbolAddress
+                    0.00%     964ns         3     321ns     281ns     367ns  cuDeviceGetUuid
+
+==48358== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48388== NVPROF is profiling process 48388, command: ./gaussian_managedm 194560
+==48388== Profiling application: ./gaussian_managedm 194560
+==48388== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   62.42%  891.72ms         5  178.34ms  9.4350us  618.99ms  cudaFree
+                   30.08%  429.78ms         6  71.630ms     176ns  409.48ms  cudaMallocManaged
+                    7.34%  104.81ms         3  34.936ms  30.697us  104.74ms  cuDeviceGetName
+                    0.09%  1.2764ms         3  425.45us  352.78us  536.65us  cuDeviceTotalMem
+                    0.04%  605.69us       297  2.0390us     126ns  98.930us  cuDeviceGetAttribute
+                    0.02%  321.95us         3  107.32us  5.4300us  189.70us  cudaMalloc
+                    0.00%  25.155us        18  1.3970us     611ns  9.4020us  cudaEventCreateWithFlags
+                    0.00%  22.220us         4  5.5550us  1.6560us  14.779us  cudaDeviceSynchronize
+                    0.00%  13.675us        18     759ns     546ns  2.4140us  cudaEventDestroy
+                    0.00%  10.370us         3  3.4560us     590ns  7.2200us  cudaGetDevice
+                    0.00%  8.4330us        12     702ns     527ns  1.9730us  cudaDeviceGetAttribute
+                    0.00%  4.8960us         2  2.4480us  1.6170us  3.2790us  cuInit
+                    0.00%  4.7280us         1  4.7280us  4.7280us  4.7280us  cuDeviceGetPCIBusId
+                    0.00%  3.5910us         5     718ns     310ns  1.7280us  cuDeviceGetCount
+                    0.00%  2.6670us         4     666ns     318ns  1.5530us  cuDeviceGet
+                    0.00%  1.5360us         1  1.5360us  1.5360us  1.5360us  cudaGetSymbolAddress
+                    0.00%  1.1350us         2     567ns     481ns     654ns  cuDriverGetVersion
+                    0.00%  1.0480us         3     349ns     273ns     395ns  cuDeviceGetUuid
+
+==48388== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48420== NVPROF is profiling process 48420, command: ./gaussian_managedm 204800
+==48420== Profiling application: ./gaussian_managedm 204800
+==48420== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   70.13%  935.90ms         5  187.18ms  7.4480us  623.61ms  cudaFree
+                   29.63%  395.39ms         6  65.899ms     302ns  375.02ms  cudaMallocManaged
+                    0.15%  1.9391ms         3  646.38us  616.66us  674.49us  cuDeviceTotalMem
+                    0.05%  671.00us       297  2.2590us     212ns  91.183us  cuDeviceGetAttribute
+                    0.02%  324.96us         3  108.32us  4.8470us  193.22us  cudaMalloc
+                    0.01%  163.54us         3  54.513us  43.262us  74.812us  cuDeviceGetName
+                    0.00%  25.144us        18  1.3960us     658ns  8.3630us  cudaEventCreateWithFlags
+                    0.00%  14.267us         4  3.5660us  1.7530us  6.2800us  cudaDeviceSynchronize
+                    0.00%  13.362us        18     742ns     507ns  2.0330us  cudaEventDestroy
+                    0.00%  10.228us         3  3.4090us     742ns  7.2050us  cudaGetDevice
+                    0.00%  8.1920us         1  8.1920us  8.1920us  8.1920us  cuDeviceGetPCIBusId
+                    0.00%  8.1260us        12     677ns     485ns  1.9510us  cudaDeviceGetAttribute
+                    0.00%  8.0400us         2  4.0200us  3.6610us  4.3790us  cuInit
+                    0.00%  3.1790us         5     635ns     276ns  1.2470us  cuDeviceGetCount
+                    0.00%  2.7950us         4     698ns     394ns  1.2910us  cuDeviceGet
+                    0.00%  1.7890us         2     894ns     889ns     900ns  cuDriverGetVersion
+                    0.00%  1.5290us         1  1.5290us  1.5290us  1.5290us  cudaGetSymbolAddress
+                    0.00%  1.3390us         3     446ns     390ns     486ns  cuDeviceGetUuid
+
+==48420== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48453== NVPROF is profiling process 48453, command: ./gaussian_managedm 215040
+==48453== Profiling application: ./gaussian_managedm 215040
+==48453== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   71.62%  903.33ms         5  180.67ms  9.5900us  625.66ms  cudaFree
+                   28.10%  354.42ms         6  59.070ms     266ns  334.06ms  cudaMallocManaged
+                    0.13%  1.6050ms         3  534.99us  504.07us  579.75us  cuDeviceTotalMem
+                    0.11%  1.3984ms       297  4.7080us     155ns  553.05us  cuDeviceGetAttribute
+                    0.03%  352.54us         3  117.51us  6.1710us  200.43us  cudaMalloc
+                    0.01%  118.71us         3  39.570us  33.184us  44.529us  cuDeviceGetName
+                    0.00%  25.892us        12  2.1570us     450ns  18.309us  cudaDeviceGetAttribute
+                    0.00%  24.540us        18  1.3630us     531ns  8.8320us  cudaEventCreateWithFlags
+                    0.00%  13.958us         4  3.4890us  1.7200us  6.8680us  cudaDeviceSynchronize
+                    0.00%  13.810us        18     767ns     633ns  2.0520us  cudaEventDestroy
+                    0.00%  8.9370us         3  2.9790us     561ns  5.9790us  cudaGetDevice
+                    0.00%  7.8130us         2  3.9060us  3.7570us  4.0560us  cuInit
+                    0.00%  7.0410us         1  7.0410us  7.0410us  7.0410us  cuDeviceGetPCIBusId
+                    0.00%  3.1420us         5     628ns     327ns  1.2940us  cuDeviceGetCount
+                    0.00%  2.0800us         2  1.0400us     767ns  1.3130us  cuDriverGetVersion
+                    0.00%  2.0150us         4     503ns     290ns     685ns  cuDeviceGet
+                    0.00%  1.4500us         1  1.4500us  1.4500us  1.4500us  cudaGetSymbolAddress
+                    0.00%  1.1110us         3     370ns     321ns     425ns  cuDeviceGetUuid
+
+==48453== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48475== NVPROF is profiling process 48475, command: ./gaussian_managedm 225280
+==48475== Profiling application: ./gaussian_managedm 225280
+==48475== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.67%  916.75ms         5  183.35ms  14.165us  631.93ms  cudaFree
+                   36.12%  519.98ms         6  86.664ms     231ns  498.38ms  cudaMallocManaged
+                    0.11%  1.6374ms         3  545.79us  403.28us  631.20us  cuDeviceTotalMem
+                    0.05%  758.79us       297  2.5540us     171ns  115.35us  cuDeviceGetAttribute
+                    0.03%  393.86us         3  131.29us  6.0550us  217.34us  cudaMalloc
+                    0.01%  128.66us         3  42.888us  34.120us  54.810us  cuDeviceGetName
+                    0.00%  29.338us        18  1.6290us     537ns  11.127us  cudaEventCreateWithFlags
+                    0.00%  20.787us         4  5.1960us  1.6920us  9.8500us  cudaDeviceSynchronize
+                    0.00%  14.207us        18     789ns     443ns  2.8210us  cudaEventDestroy
+                    0.00%  13.039us         3  4.3460us     724ns  9.6470us  cudaGetDevice
+                    0.00%  8.7580us        12     729ns     460ns  2.3830us  cudaDeviceGetAttribute
+                    0.00%  6.3390us         2  3.1690us  2.7590us  3.5800us  cuInit
+                    0.00%  4.4970us         1  4.4970us  4.4970us  4.4970us  cuDeviceGetPCIBusId
+                    0.00%  2.8680us         5     573ns     256ns  1.3310us  cuDeviceGetCount
+                    0.00%  2.6800us         4     670ns     407ns  1.4440us  cuDeviceGet
+                    0.00%  1.3980us         1  1.3980us  1.3980us  1.3980us  cudaGetSymbolAddress
+                    0.00%  1.2220us         2     611ns     609ns     613ns  cuDriverGetVersion
+                    0.00%  1.0850us         3     361ns     302ns     425ns  cuDeviceGetUuid
+
+==48475== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48505== NVPROF is profiling process 48505, command: ./gaussian_managedm 235520
+==48505== Profiling application: ./gaussian_managedm 235520
+==48505== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.88%  935.71ms         5  187.14ms  8.5620us  634.83ms  cudaFree
+                   35.87%  525.38ms         6  87.563ms     298ns  505.03ms  cudaMallocManaged
+                    0.10%  1.3928ms         3  464.27us  409.48us  552.34us  cuDeviceTotalMem
+                    0.09%  1.3709ms       297  4.6150us     147ns  428.58us  cuDeviceGetAttribute
+                    0.04%  580.32us         3  193.44us  6.0910us  333.48us  cudaMalloc
+                    0.01%  162.88us         3  54.293us  43.920us  68.457us  cuDeviceGetName
+                    0.00%  29.366us        18  1.6310us     521ns  11.722us  cudaEventCreateWithFlags
+                    0.00%  11.169us         4  2.7920us  1.0770us  6.2470us  cudaDeviceSynchronize
+                    0.00%  10.275us         3  3.4250us     620ns  7.4490us  cudaGetDevice
+                    0.00%  8.9480us        18     497ns     331ns  1.9100us  cudaEventDestroy
+                    0.00%  7.5860us        12     632ns     431ns  1.7060us  cudaDeviceGetAttribute
+                    0.00%  7.0100us         2  3.5050us  3.1880us  3.8220us  cuInit
+                    0.00%  5.5230us         1  5.5230us  5.5230us  5.5230us  cuDeviceGetPCIBusId
+                    0.00%  2.9230us         5     584ns     244ns  1.1740us  cuDeviceGetCount
+                    0.00%  2.2070us         4     551ns     200ns  1.1330us  cuDeviceGet
+                    0.00%  1.6890us         2     844ns     813ns     876ns  cuDriverGetVersion
+                    0.00%  1.2890us         1  1.2890us  1.2890us  1.2890us  cudaGetSymbolAddress
+                    0.00%  1.1040us         3     368ns     325ns     413ns  cuDeviceGetUuid
+
+==48505== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48536== NVPROF is profiling process 48536, command: ./gaussian_managedm 245760
+==48536== Profiling application: ./gaussian_managedm 245760
+==48536== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.01%  916.77ms         5  183.35ms  11.288us  635.38ms  cudaFree
+                   36.79%  535.20ms         6  89.200ms     337ns  514.88ms  cudaMallocManaged
+                    0.12%  1.7754ms         3  591.79us  380.03us  808.02us  cuDeviceTotalMem
+                    0.04%  575.00us       297  1.9360us     124ns  83.823us  cuDeviceGetAttribute
+                    0.03%  377.05us         3  125.68us  6.1500us  213.35us  cudaMalloc
+                    0.01%  99.843us         3  33.281us  29.489us  39.173us  cuDeviceGetName
+                    0.00%  27.732us        18  1.5400us     548ns  9.4870us  cudaEventCreateWithFlags
+                    0.00%  15.995us         4  3.9980us  1.6850us  8.1680us  cudaDeviceSynchronize
+                    0.00%  12.851us        18     713ns     457ns  2.3030us  cudaEventDestroy
+                    0.00%  10.918us         3  3.6390us     465ns  8.1630us  cudaGetDevice
+                    0.00%  8.3980us         1  8.3980us  8.3980us  8.3980us  cuDeviceGetPCIBusId
+                    0.00%  7.9540us        12     662ns     463ns  1.8500us  cudaDeviceGetAttribute
+                    0.00%  5.5140us         2  2.7570us  2.3600us  3.1540us  cuInit
+                    0.00%  2.9020us         4     725ns     375ns  1.6240us  cuDeviceGet
+                    0.00%  2.7190us         5     543ns     194ns  1.3800us  cuDeviceGetCount
+                    0.00%  1.7650us         1  1.7650us  1.7650us  1.7650us  cudaGetSymbolAddress
+                    0.00%  1.4600us         2     730ns     583ns     877ns  cuDriverGetVersion
+                    0.00%     940ns         3     313ns     241ns     357ns  cuDeviceGetUuid
+
+==48536== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48563== NVPROF is profiling process 48563, command: ./gaussian_managedm 256000
+==48563== Profiling application: ./gaussian_managedm 256000
+==48563== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.21%  1.21140s         5  242.28ms  7.2090us  735.23ms  cudaFree
+                   24.67%  431.87ms         6  71.978ms     343ns  411.56ms  cudaMallocManaged
+                    5.99%  104.79ms         3  34.928ms  30.151us  104.71ms  cuDeviceGetName
+                    0.08%  1.4385ms         3  479.49us  346.50us  570.29us  cuDeviceTotalMem
+                    0.03%  596.65us       297  2.0080us     136ns  102.98us  cuDeviceGetAttribute
+                    0.01%  247.80us         3  82.599us  4.1240us  149.36us  cudaMalloc
+                    0.00%  24.837us        18  1.3790us     363ns  10.671us  cudaEventCreateWithFlags
+                    0.00%  14.012us         4  3.5030us  1.0760us  8.1280us  cudaDeviceSynchronize
+                    0.00%  9.9680us         3  3.3220us     775ns  7.0430us  cudaGetDevice
+                    0.00%  8.2850us        18     460ns     321ns  1.7350us  cudaEventDestroy
+                    0.00%  6.1950us         2  3.0970us  2.4470us  3.7480us  cuInit
+                    0.00%  5.5640us        12     463ns     291ns  1.5850us  cudaDeviceGetAttribute
+                    0.00%  4.6760us         1  4.6760us  4.6760us  4.6760us  cuDeviceGetPCIBusId
+                    0.00%  2.6940us         5     538ns     215ns  1.2290us  cuDeviceGetCount
+                    0.00%  2.2220us         4     555ns     219ns  1.1060us  cuDeviceGet
+                    0.00%  1.4170us         2     708ns     458ns     959ns  cuDriverGetVersion
+                    0.00%  1.0750us         1  1.0750us  1.0750us  1.0750us  cudaGetSymbolAddress
+                    0.00%     971ns         3     323ns     243ns     370ns  cuDeviceGetUuid
+
+==48563== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48594== NVPROF is profiling process 48594, command: ./gaussian_managedm 266240
+==48594== Profiling application: ./gaussian_managedm 266240
+==48594== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.45%  914.46ms         5  182.89ms  13.441us  632.15ms  cudaFree
+                   30.29%  398.84ms         6  66.473ms     231ns  378.50ms  cudaMallocManaged
+                    0.13%  1.6477ms         3  549.23us  512.72us  589.75us  cuDeviceTotalMem
+                    0.06%  818.04us       297  2.7540us     154ns  263.54us  cuDeviceGetAttribute
+                    0.03%  453.77us         3  151.26us  40.178us  367.20us  cuDeviceGetName
+                    0.03%  370.11us         3  123.37us  6.6860us  216.26us  cudaMalloc
+                    0.00%  36.928us        18  2.0510us     605ns  13.994us  cudaEventCreateWithFlags
+                    0.00%  22.853us         1  22.853us  22.853us  22.853us  cuDeviceGetPCIBusId
+                    0.00%  22.329us         4  5.5820us  2.0660us  8.7200us  cudaDeviceSynchronize
+                    0.00%  19.746us        12  1.6450us     468ns  13.728us  cudaDeviceGetAttribute
+                    0.00%  15.652us        18     869ns     477ns  2.8570us  cudaEventDestroy
+                    0.00%  12.267us         3  4.0890us     586ns  8.6010us  cudaGetDevice
+                    0.00%  6.1350us         2  3.0670us  2.6870us  3.4480us  cuInit
+                    0.00%  3.6010us         5     720ns     283ns  1.7010us  cuDeviceGetCount
+                    0.00%  2.9060us         4     726ns     285ns  1.5250us  cuDeviceGet
+                    0.00%  1.5150us         2     757ns     755ns     760ns  cuDriverGetVersion
+                    0.00%  1.3060us         1  1.3060us  1.3060us  1.3060us  cudaGetSymbolAddress
+                    0.00%  1.0410us         3     347ns     305ns     408ns  cuDeviceGetUuid
+
+==48594== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48620== NVPROF is profiling process 48620, command: ./gaussian_managedm 276480
+==48620== Profiling application: ./gaussian_managedm 276480
+==48620== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   63.85%  932.37ms         5  186.47ms  9.5550us  645.95ms  cudaFree
+                   35.96%  525.15ms         6  87.526ms     260ns  504.88ms  cudaMallocManaged
+                    0.10%  1.4987ms         3  499.56us  408.51us  547.85us  cuDeviceTotalMem
+                    0.04%  610.10us       297  2.0540us     129ns  87.364us  cuDeviceGetAttribute
+                    0.02%  355.27us         3  118.42us  6.4300us  199.94us  cudaMalloc
+                    0.01%  104.31us         3  34.768us  31.035us  38.074us  cuDeviceGetName
+                    0.00%  37.421us        18  2.0780us     600ns  14.106us  cudaEventCreateWithFlags
+                    0.00%  17.299us         4  4.3240us  1.9270us  7.9220us  cudaDeviceSynchronize
+                    0.00%  13.223us        18     734ns     561ns  2.0910us  cudaEventDestroy
+                    0.00%  9.3120us         3  3.1040us     619ns  6.3320us  cudaGetDevice
+                    0.00%  7.9620us        12     663ns     444ns  2.0450us  cudaDeviceGetAttribute
+                    0.00%  5.8540us         2  2.9270us  2.5580us  3.2960us  cuInit
+                    0.00%  5.1190us         1  5.1190us  5.1190us  5.1190us  cuDeviceGetPCIBusId
+                    0.00%  2.6830us         5     536ns     227ns  1.0460us  cuDeviceGetCount
+                    0.00%  2.2490us         4     562ns     214ns  1.1830us  cuDeviceGet
+                    0.00%  1.5040us         1  1.5040us  1.5040us  1.5040us  cudaGetSymbolAddress
+                    0.00%  1.4340us         2     717ns     607ns     827ns  cuDriverGetVersion
+                    0.00%  1.0560us         3     352ns     258ns     405ns  cuDeviceGetUuid
+
+==48620== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48652== NVPROF is profiling process 48652, command: ./gaussian_managedm 286720
+==48652== Profiling application: ./gaussian_managedm 286720
+==48652== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.27%  639.17ms         5  127.83ms  8.5000us  444.23ms  cudaFree
+                   32.52%  309.02ms         6  51.503ms     156ns  288.67ms  cudaMallocManaged
+                    0.12%  1.1395ms         3  379.82us  347.88us  430.18us  cuDeviceTotalMem
+                    0.05%  449.37us       297  1.5130us     126ns  69.356us  cuDeviceGetAttribute
+                    0.03%  267.47us         3  89.158us  4.9440us  159.54us  cudaMalloc
+                    0.01%  90.608us         3  30.202us  27.957us  31.621us  cuDeviceGetName
+                    0.00%  21.417us        18  1.1890us     429ns  8.7980us  cudaEventCreateWithFlags
+                    0.00%  12.453us         4  3.1130us  1.0890us  7.0700us  cudaDeviceSynchronize
+                    0.00%  8.7120us        18     484ns     323ns  1.5760us  cudaEventDestroy
+                    0.00%  6.7880us         3  2.2620us     374ns  4.0680us  cudaGetDevice
+                    0.00%  5.7180us        12     476ns     323ns  1.6800us  cudaDeviceGetAttribute
+                    0.00%  5.3990us         1  5.3990us  5.3990us  5.3990us  cuDeviceGetPCIBusId
+                    0.00%  4.9230us         2  2.4610us  2.3940us  2.5290us  cuInit
+                    0.00%  2.3120us         5     462ns     242ns     857ns  cuDeviceGetCount
+                    0.00%  2.0550us         4     513ns     278ns  1.0580us  cuDeviceGet
+                    0.00%  1.3540us         1  1.3540us  1.3540us  1.3540us  cudaGetSymbolAddress
+                    0.00%     934ns         2     467ns     433ns     501ns  cuDriverGetVersion
+                    0.00%     826ns         3     275ns     244ns     297ns  cuDeviceGetUuid
+
+==48652== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48671== NVPROF is profiling process 48671, command: ./gaussian_managedm 296960
+==48671== Profiling application: ./gaussian_managedm 296960
+==48671== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.09%  947.78ms         5  189.56ms  23.235us  629.24ms  cudaFree
+                   33.53%  480.85ms         6  80.141ms     358ns  460.56ms  cudaMallocManaged
+                    0.29%  4.2226ms         3  1.4075ms  523.91us  3.1394ms  cuDeviceTotalMem
+                    0.05%  653.60us       297  2.2000us     190ns  89.342us  cuDeviceGetAttribute
+                    0.02%  309.15us         3  103.05us  5.6540us  182.67us  cudaMalloc
+                    0.01%  103.11us         3  34.370us  31.557us  37.474us  cuDeviceGetName
+                    0.00%  37.081us        18  2.0600us     790ns  12.380us  cudaEventCreateWithFlags
+                    0.00%  18.670us         4  4.6670us  2.0170us  10.766us  cudaDeviceSynchronize
+                    0.00%  16.295us        18     905ns     714ns  2.5920us  cudaEventDestroy
+                    0.00%  9.7700us         3  3.2560us     804ns  6.1440us  cudaGetDevice
+                    0.00%  9.4850us        12     790ns     600ns  2.0670us  cudaDeviceGetAttribute
+                    0.00%  6.5220us         1  6.5220us  6.5220us  6.5220us  cuDeviceGetPCIBusId
+                    0.00%  5.1030us         2  2.5510us  2.3910us  2.7120us  cuInit
+                    0.00%  2.8890us         5     577ns     305ns  1.2480us  cuDeviceGetCount
+                    0.00%  2.7930us         4     698ns     271ns  1.0670us  cuDeviceGet
+                    0.00%  1.6550us         1  1.6550us  1.6550us  1.6550us  cudaGetSymbolAddress
+                    0.00%  1.3600us         2     680ns     670ns     690ns  cuDriverGetVersion
+                    0.00%  1.1660us         3     388ns     360ns     428ns  cuDeviceGetUuid
+
+==48671== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48694== NVPROF is profiling process 48694, command: ./gaussian_managedm 307200
+==48694== Profiling application: ./gaussian_managedm 307200
+==48694== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.01%  888.21ms         5  177.64ms  14.162us  592.88ms  cudaFree
+                   33.78%  454.55ms         6  75.758ms     327ns  434.30ms  cudaMallocManaged
+                    0.12%  1.5892ms         3  529.72us  524.91us  536.19us  cuDeviceTotalMem
+                    0.04%  588.76us       297  1.9820us     184ns  82.993us  cuDeviceGetAttribute
+                    0.02%  335.07us         3  111.69us  6.0210us  205.83us  cudaMalloc
+                    0.01%  104.23us         3  34.742us  32.506us  37.704us  cuDeviceGetName
+                    0.00%  34.185us        18  1.8990us     789ns  11.142us  cudaEventCreateWithFlags
+                    0.00%  18.191us         4  4.5470us  1.8570us  10.097us  cudaDeviceSynchronize
+                    0.00%  16.100us        18     894ns     698ns  2.9210us  cudaEventDestroy
+                    0.00%  10.411us         3  3.4700us     699ns  7.1490us  cudaGetDevice
+                    0.00%  9.3200us        12     776ns     602ns  1.9620us  cudaDeviceGetAttribute
+                    0.00%  7.6120us         1  7.6120us  7.6120us  7.6120us  cuDeviceGetPCIBusId
+                    0.00%  6.5190us         2  3.2590us  2.4140us  4.1050us  cuInit
+                    0.00%  2.9660us         5     593ns     285ns  1.2830us  cuDeviceGetCount
+                    0.00%  2.2840us         4     571ns     319ns  1.0430us  cuDeviceGet
+                    0.00%  1.7420us         1  1.7420us  1.7420us  1.7420us  cudaGetSymbolAddress
+                    0.00%  1.2350us         2     617ns     521ns     714ns  cuDriverGetVersion
+                    0.00%  1.1210us         3     373ns     359ns     385ns  cuDeviceGetUuid
+
+==48694== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48713== NVPROF is profiling process 48713, command: ./gaussian_managedm 317440
+==48713== Profiling application: ./gaussian_managedm 317440
+==48713== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   65.23%  816.44ms         5  163.29ms  12.126us  525.56ms  cudaFree
+                   34.48%  431.54ms         6  71.924ms     297ns  411.28ms  cudaMallocManaged
+                    0.20%  2.5620ms         3  853.99us  522.12us  1.4371ms  cuDeviceTotalMem
+                    0.05%  633.63us       297  2.1330us     177ns  88.614us  cuDeviceGetAttribute
+                    0.02%  259.22us         3  86.405us  4.0820us  152.32us  cudaMalloc
+                    0.01%  110.16us         3  36.720us  34.832us  39.610us  cuDeviceGetName
+                    0.00%  17.764us        18     986ns     358ns  6.7170us  cudaEventCreateWithFlags
+                    0.00%  13.605us         4  3.4010us  1.2730us  7.7710us  cudaDeviceSynchronize
+                    0.00%  9.1290us         3  3.0430us     786ns  6.4170us  cudaGetDevice
+                    0.00%  8.8880us        18     493ns     320ns  2.0820us  cudaEventDestroy
+                    0.00%  8.3630us         1  8.3630us  8.3630us  8.3630us  cuDeviceGetPCIBusId
+                    0.00%  5.2040us         2  2.6020us  2.5810us  2.6230us  cuInit
+                    0.00%  5.0980us        12     424ns     270ns  1.5200us  cudaDeviceGetAttribute
+                    0.00%  3.4640us         5     692ns     271ns  1.2920us  cuDeviceGetCount
+                    0.00%  2.7160us         4     679ns     369ns  1.3480us  cuDeviceGet
+                    0.00%  1.3550us         1  1.3550us  1.3550us  1.3550us  cudaGetSymbolAddress
+                    0.00%  1.2680us         3     422ns     360ns     533ns  cuDeviceGetUuid
+                    0.00%  1.2120us         2     606ns     567ns     645ns  cuDriverGetVersion
+
+==48713== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48734== NVPROF is profiling process 48734, command: ./gaussian_managedm 327680
+==48734== Profiling application: ./gaussian_managedm 327680
+==48734== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.01%  638.05ms         5  127.61ms  7.7000us  440.46ms  cudaFree
+                   32.77%  312.01ms         6  52.001ms     208ns  291.68ms  cudaMallocManaged
+                    0.13%  1.1917ms         3  397.22us  349.45us  453.56us  cuDeviceTotalMem
+                    0.05%  458.97us       297  1.5450us     125ns  65.848us  cuDeviceGetAttribute
+                    0.03%  265.91us         3  88.635us  4.3210us  152.18us  cudaMalloc
+                    0.01%  117.70us         3  39.232us  30.174us  52.664us  cuDeviceGetName
+                    0.00%  18.823us        18  1.0450us     377ns  6.7010us  cudaEventCreateWithFlags
+                    0.00%  12.781us         4  3.1950us  1.2230us  7.7710us  cudaDeviceSynchronize
+                    0.00%  10.779us        18     598ns     324ns  2.0310us  cudaEventDestroy
+                    0.00%  8.3940us         3  2.7980us     407ns  6.1750us  cudaGetDevice
+                    0.00%  5.6270us         1  5.6270us  5.6270us  5.6270us  cuDeviceGetPCIBusId
+                    0.00%  5.2570us        12     438ns     271ns  1.4360us  cudaDeviceGetAttribute
+                    0.00%  5.0530us         2  2.5260us  2.1670us  2.8860us  cuInit
+                    0.00%  2.1780us         4     544ns     305ns  1.0690us  cuDeviceGet
+                    0.00%  2.0770us         5     415ns     180ns     781ns  cuDeviceGetCount
+                    0.00%  1.1250us         1  1.1250us  1.1250us  1.1250us  cudaGetSymbolAddress
+                    0.00%     979ns         2     489ns     421ns     558ns  cuDriverGetVersion
+                    0.00%     834ns         3     278ns     236ns     330ns  cuDeviceGetUuid
+
+==48734== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48753== NVPROF is profiling process 48753, command: ./gaussian_managedm 337920
+==48753== Profiling application: ./gaussian_managedm 337920
+==48753== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.73%  635.90ms         5  127.18ms  8.2240us  443.94ms  cudaFree
+                   33.06%  315.04ms         6  52.507ms     142ns  294.66ms  cudaMallocManaged
+                    0.12%  1.1513ms         3  383.77us  349.41us  441.06us  cuDeviceTotalMem
+                    0.05%  465.03us       297  1.5650us     124ns  75.355us  cuDeviceGetAttribute
+                    0.03%  252.42us         3  84.141us  4.4700us  148.26us  cudaMalloc
+                    0.01%  92.317us         3  30.772us  30.046us  31.976us  cuDeviceGetName
+                    0.00%  18.496us        18  1.0270us     365ns  6.7490us  cudaEventCreateWithFlags
+                    0.00%  12.635us         4  3.1580us  1.0980us  7.1130us  cudaDeviceSynchronize
+                    0.00%  8.4350us        18     468ns     317ns  1.9800us  cudaEventDestroy
+                    0.00%  7.4840us         3  2.4940us     466ns  5.0880us  cudaGetDevice
+                    0.00%  5.7720us         1  5.7720us  5.7720us  5.7720us  cuDeviceGetPCIBusId
+                    0.00%  5.3000us        12     441ns     268ns  1.5990us  cudaDeviceGetAttribute
+                    0.00%  4.9690us         2  2.4840us  1.9580us  3.0110us  cuInit
+                    0.00%  2.5850us         5     517ns     261ns  1.2660us  cuDeviceGetCount
+                    0.00%  1.9900us         4     497ns     239ns  1.0430us  cuDeviceGet
+                    0.00%     988ns         1     988ns     988ns     988ns  cudaGetSymbolAddress
+                    0.00%     876ns         3     292ns     248ns     328ns  cuDeviceGetUuid
+                    0.00%     863ns         2     431ns     330ns     533ns  cuDriverGetVersion
+
+==48753== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48772== NVPROF is profiling process 48772, command: ./gaussian_managedm 348160
+==48772== Profiling application: ./gaussian_managedm 348160
+==48772== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   64.14%  693.08ms         5  138.62ms  9.1550us  496.37ms  cudaFree
+                   35.63%  385.04ms         6  64.173ms     155ns  364.74ms  cudaMallocManaged
+                    0.14%  1.4610ms         3  486.99us  407.71us  535.96us  cuDeviceTotalMem
+                    0.05%  558.57us       297  1.8800us     138ns  86.070us  cuDeviceGetAttribute
+                    0.02%  263.47us         3  87.822us  4.1900us  154.52us  cudaMalloc
+                    0.01%  113.53us         3  37.842us  29.018us  49.158us  cuDeviceGetName
+                    0.00%  19.055us        18  1.0580us     375ns  6.7710us  cudaEventCreateWithFlags
+                    0.00%  14.482us        18     804ns     340ns  7.0210us  cudaEventDestroy
+                    0.00%  13.599us         4  3.3990us  1.0720us  8.4530us  cudaDeviceSynchronize
+                    0.00%  9.8930us         3  3.2970us     770ns  6.9260us  cudaGetDevice
+                    0.00%  6.2540us         1  6.2540us  6.2540us  6.2540us  cuDeviceGetPCIBusId
+                    0.00%  5.8570us         2  2.9280us  2.5710us  3.2860us  cuInit
+                    0.00%  5.4190us        12     451ns     276ns  1.8050us  cudaDeviceGetAttribute
+                    0.00%  2.3710us         4     592ns     231ns  1.4380us  cuDeviceGet
+                    0.00%  2.0430us         5     408ns     197ns     827ns  cuDeviceGetCount
+                    0.00%  1.4960us         1  1.4960us  1.4960us  1.4960us  cudaGetSymbolAddress
+                    0.00%  1.2360us         2     618ns     382ns     854ns  cuDriverGetVersion
+                    0.00%  1.1060us         3     368ns     351ns     387ns  cuDeviceGetUuid
+
+==48772== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48793== NVPROF is profiling process 48793, command: ./gaussian_managedm 358400
+==48793== Profiling application: ./gaussian_managedm 358400
+==48793== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.33%  636.96ms         5  127.39ms  8.3310us  444.93ms  cudaFree
+                   32.46%  307.12ms         6  51.186ms     190ns  286.76ms  cudaMallocManaged
+                    0.12%  1.0950ms         3  364.99us  358.53us  374.51us  cuDeviceTotalMem
+                    0.05%  495.91us       297  1.6690us     129ns  104.40us  cuDeviceGetAttribute
+                    0.03%  246.33us         3  82.109us  4.4940us  147.90us  cudaMalloc
+                    0.01%  93.722us         3  31.240us  29.085us  32.675us  cuDeviceGetName
+                    0.00%  16.658us        18     925ns     362ns  6.5630us  cudaEventCreateWithFlags
+                    0.00%  12.320us         4  3.0800us  1.1980us  7.4020us  cudaDeviceSynchronize
+                    0.00%  8.0740us        18     448ns     318ns  1.8230us  cudaEventDestroy
+                    0.00%  7.8670us         3  2.6220us     397ns  5.2930us  cudaGetDevice
+                    0.00%  5.7440us         2  2.8720us  2.4300us  3.3140us  cuInit
+                    0.00%  5.3150us        12     442ns     280ns  1.5020us  cudaDeviceGetAttribute
+                    0.00%  4.8910us         1  4.8910us  4.8910us  4.8910us  cuDeviceGetPCIBusId
+                    0.00%  2.1700us         5     434ns     194ns     945ns  cuDeviceGetCount
+                    0.00%  2.1280us         4     532ns     206ns  1.2410us  cuDeviceGet
+                    0.00%  1.1710us         1  1.1710us  1.1710us  1.1710us  cudaGetSymbolAddress
+                    0.00%  1.1250us         2     562ns     501ns     624ns  cuDriverGetVersion
+                    0.00%     754ns         3     251ns     211ns     288ns  cuDeviceGetUuid
+
+==48793== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48812== NVPROF is profiling process 48812, command: ./gaussian_managedm 368640
+==48812== Profiling application: ./gaussian_managedm 368640
+==48812== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.53%  643.26ms         5  128.65ms  8.5000us  451.86ms  cudaFree
+                   32.26%  307.32ms         6  51.220ms     213ns  286.94ms  cudaMallocManaged
+                    0.12%  1.1445ms         3  381.49us  353.47us  413.55us  cuDeviceTotalMem
+                    0.05%  468.60us       297  1.5770us     125ns  72.599us  cuDeviceGetAttribute
+                    0.03%  266.11us         3  88.702us  4.2700us  148.29us  cudaMalloc
+                    0.01%  92.591us         3  30.863us  27.704us  33.019us  cuDeviceGetName
+                    0.00%  17.699us        18     983ns     379ns  6.5620us  cudaEventCreateWithFlags
+                    0.00%  12.673us         4  3.1680us  1.0830us  7.5760us  cudaDeviceSynchronize
+                    0.00%  8.9230us        18     495ns     346ns  1.6980us  cudaEventDestroy
+                    0.00%  6.6580us         1  6.6580us  6.6580us  6.6580us  cuDeviceGetPCIBusId
+                    0.00%  5.7050us         2  2.8520us  2.4710us  3.2340us  cuInit
+                    0.00%  5.0110us        12     417ns     280ns  1.4080us  cudaDeviceGetAttribute
+                    0.00%  4.5450us         3  1.5150us     356ns  2.1080us  cudaGetDevice
+                    0.00%  2.3490us         4     587ns     245ns  1.2820us  cuDeviceGet
+                    0.00%  2.1340us         5     426ns     169ns  1.0340us  cuDeviceGetCount
+                    0.00%  1.3250us         1  1.3250us  1.3250us  1.3250us  cudaGetSymbolAddress
+                    0.00%  1.1160us         2     558ns     399ns     717ns  cuDriverGetVersion
+                    0.00%     810ns         3     270ns     251ns     280ns  cuDeviceGetUuid
+
+==48812== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48831== NVPROF is profiling process 48831, command: ./gaussian_managedm 378880
+==48831== Profiling application: ./gaussian_managedm 378880
+==48831== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.43%  678.31ms         5  135.66ms  11.568us  458.02ms  cudaFree
+                   31.38%  311.08ms         6  51.847ms     221ns  290.73ms  cudaMallocManaged
+                    0.11%  1.0822ms         3  360.74us  347.47us  371.98us  cuDeviceTotalMem
+                    0.04%  430.83us       297  1.4500us     128ns  64.456us  cuDeviceGetAttribute
+                    0.02%  240.78us         3  80.261us  3.9870us  145.84us  cudaMalloc
+                    0.01%  94.160us         3  31.386us  30.732us  32.074us  cuDeviceGetName
+                    0.00%  18.146us        18  1.0080us     363ns  7.3700us  cudaEventCreateWithFlags
+                    0.00%  12.517us         4  3.1290us  1.1540us  7.3540us  cudaDeviceSynchronize
+                    0.00%  9.2430us        18     513ns     324ns  2.1140us  cudaEventDestroy
+                    0.00%  7.0460us         3  2.3480us     410ns  4.3930us  cudaGetDevice
+                    0.00%  5.5610us        12     463ns     273ns  1.6810us  cudaDeviceGetAttribute
+                    0.00%  5.3920us         1  5.3920us  5.3920us  5.3920us  cuDeviceGetPCIBusId
+                    0.00%  5.3410us         2  2.6700us  2.6350us  2.7060us  cuInit
+                    0.00%  2.0350us         5     407ns     150ns  1.0420us  cuDeviceGetCount
+                    0.00%  2.0190us         4     504ns     236ns  1.1510us  cuDeviceGet
+                    0.00%  1.1700us         1  1.1700us  1.1700us  1.1700us  cudaGetSymbolAddress
+                    0.00%     931ns         2     465ns     433ns     498ns  cuDriverGetVersion
+                    0.00%     773ns         3     257ns     243ns     268ns  cuDeviceGetUuid
+
+==48831== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48852== NVPROF is profiling process 48852, command: ./gaussian_managedm 389120
+==48852== Profiling application: ./gaussian_managedm 389120
+==48852== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.78%  642.36ms         5  128.47ms  8.2360us  447.17ms  cudaFree
+                   33.01%  317.50ms         6  52.917ms     196ns  297.15ms  cudaMallocManaged
+                    0.11%  1.0688ms         3  356.28us  352.13us  359.29us  cuDeviceTotalMem
+                    0.05%  468.32us       297  1.5760us     125ns  84.094us  cuDeviceGetAttribute
+                    0.03%  274.25us         3  91.415us  4.7750us  173.68us  cudaMalloc
+                    0.01%  94.910us         3  31.636us  29.260us  33.836us  cuDeviceGetName
+                    0.00%  19.473us        18  1.0810us     366ns  8.0200us  cudaEventCreateWithFlags
+                    0.00%  13.577us         4  3.3940us  1.0850us  8.2260us  cudaDeviceSynchronize
+                    0.00%  8.4630us        18     470ns     321ns  2.1930us  cudaEventDestroy
+                    0.00%  8.3080us         3  2.7690us     402ns  5.5370us  cudaGetDevice
+                    0.00%  5.4390us         1  5.4390us  5.4390us  5.4390us  cuDeviceGetPCIBusId
+                    0.00%  5.3700us        12     447ns     280ns  1.6880us  cudaDeviceGetAttribute
+                    0.00%  5.0970us         2  2.5480us  2.1160us  2.9810us  cuInit
+                    0.00%  2.4700us         5     494ns     182ns  1.0940us  cuDeviceGetCount
+                    0.00%  2.0640us         4     516ns     273ns     897ns  cuDeviceGet
+                    0.00%  1.3650us         1  1.3650us  1.3650us  1.3650us  cudaGetSymbolAddress
+                    0.00%     919ns         2     459ns     449ns     470ns  cuDriverGetVersion
+                    0.00%     831ns         3     277ns     247ns     297ns  cuDeviceGetUuid
+
+==48852== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48871== NVPROF is profiling process 48871, command: ./gaussian_managedm 399360
+==48871== Profiling application: ./gaussian_managedm 399360
+==48871== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.97%  645.27ms         5  129.05ms  7.6840us  448.99ms  cudaFree
+                   32.82%  316.18ms         6  52.697ms     153ns  295.81ms  cudaMallocManaged
+                    0.12%  1.1486ms         3  382.85us  369.29us  404.18us  cuDeviceTotalMem
+                    0.05%  483.42us       297  1.6270us     131ns  94.538us  cuDeviceGetAttribute
+                    0.03%  263.39us         3  87.795us  4.3570us  163.21us  cudaMalloc
+                    0.01%  100.07us         3  33.358us  31.111us  37.770us  cuDeviceGetName
+                    0.00%  18.275us        18  1.0150us     379ns  6.9910us  cudaEventCreateWithFlags
+                    0.00%  14.298us         4  3.5740us  1.0560us  7.4550us  cudaDeviceSynchronize
+                    0.00%  8.3520us        18     464ns     335ns  1.6970us  cudaEventDestroy
+                    0.00%  5.8630us         1  5.8630us  5.8630us  5.8630us  cuDeviceGetPCIBusId
+                    0.00%  5.7280us         2  2.8640us  2.6380us  3.0900us  cuInit
+                    0.00%  5.0520us        12     421ns     282ns  1.4610us  cudaDeviceGetAttribute
+                    0.00%  4.1990us         3  1.3990us     355ns  2.0070us  cudaGetDevice
+                    0.00%  2.5040us         5     500ns     213ns  1.0110us  cuDeviceGetCount
+                    0.00%  2.2340us         4     558ns     269ns  1.0980us  cuDeviceGet
+                    0.00%  1.4870us         1  1.4870us  1.4870us  1.4870us  cudaGetSymbolAddress
+                    0.00%     972ns         2     486ns     396ns     576ns  cuDriverGetVersion
+                    0.00%     841ns         3     280ns     266ns     302ns  cuDeviceGetUuid
+
+==48871== Unified Memory profiling result:
+Total CPU Page faults: 1
+==48890== NVPROF is profiling process 48890, command: ./gaussian_managedm 409600
+==48890== Profiling application: ./gaussian_managedm 409600
+==48890== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.16%  656.66ms         5  131.33ms  9.2730us  459.97ms  cudaFree
+                   32.61%  318.82ms         6  53.137ms     185ns  298.39ms  cudaMallocManaged
+                    0.13%  1.2912ms         3  430.39us  353.03us  545.90us  cuDeviceTotalMem
+                    0.05%  509.39us       297  1.7150us     128ns  82.365us  cuDeviceGetAttribute
+                    0.03%  341.29us         3  113.76us  6.3270us  186.27us  cudaMalloc
+                    0.01%  104.22us         3  34.739us  28.128us  45.853us  cuDeviceGetName
+                    0.00%  25.441us        18  1.4130us     579ns  9.5950us  cudaEventCreateWithFlags
+                    0.00%  17.534us         4  4.3830us  1.9510us  7.9230us  cudaDeviceSynchronize
+                    0.00%  13.274us        18     737ns     594ns  2.0030us  cudaEventDestroy
+                    0.00%  9.3310us         3  3.1100us     664ns  5.9520us  cudaGetDevice
+                    0.00%  8.3300us        12     694ns     438ns  1.9830us  cudaDeviceGetAttribute
+                    0.00%  5.7330us         2  2.8660us  2.6580us  3.0750us  cuInit
+                    0.00%  5.0030us         1  5.0030us  5.0030us  5.0030us  cuDeviceGetPCIBusId
+                    0.00%  2.0590us         4     514ns     263ns     921ns  cuDeviceGet
+                    0.00%  2.0270us         5     405ns     192ns     771ns  cuDeviceGetCount
+                    0.00%  1.5050us         2     752ns     523ns     982ns  cuDriverGetVersion
+                    0.00%  1.3960us         1  1.3960us  1.3960us  1.3960us  cudaGetSymbolAddress
+                    0.00%     911ns         3     303ns     272ns     351ns  cuDeviceGetUuid

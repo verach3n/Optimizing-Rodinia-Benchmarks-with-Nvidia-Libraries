@@ -1,0 +1,806 @@
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71187== NVPROF is profiling process 71187, command: ./gaussian_regularm 102400
+
+Time total (including memory transfers)	0.000030 sec
+==71187== Profiling application: ./gaussian_regularm 102400
+==71187== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.55%  644.97ms        13  49.613ms     600ns  451.07ms  cudaFree
+                   31.24%  293.98ms         5  58.796ms     575ns  293.71ms  cudaMalloc
+                    0.13%  1.2469ms         3  415.64us  341.77us  533.06us  cuDeviceTotalMem
+                    0.05%  516.84us       297  1.7400us     128ns  83.352us  cuDeviceGetAttribute
+                    0.01%  90.147us         3  30.049us  27.016us  31.830us  cuDeviceGetName
+                    0.00%  26.948us         5  5.3890us  1.9950us  13.718us  cudaDeviceSynchronize
+                    0.00%  21.426us        18  1.1900us     429ns  9.2180us  cudaEventCreateWithFlags
+                    0.00%  13.099us        18     727ns     379ns  2.9110us  cudaEventDestroy
+                    0.00%  8.1740us        12     681ns     443ns  2.1120us  cudaDeviceGetAttribute
+                    0.00%  7.6570us         3  2.5520us     389ns  4.9080us  cudaGetDevice
+                    0.00%  5.4720us         1  5.4720us  5.4720us  5.4720us  cuDeviceGetPCIBusId
+                    0.00%  5.3340us         2  2.6670us  2.5720us  2.7620us  cuInit
+                    0.00%  2.5610us         5     512ns     213ns  1.0430us  cuDeviceGetCount
+                    0.00%  2.1250us         4     531ns     180ns  1.5470us  cudaMemcpy
+                    0.00%  1.9320us         4     483ns     268ns     963ns  cuDeviceGet
+                    0.00%  1.6220us         1  1.6220us  1.6220us  1.6220us  cudaGetSymbolAddress
+                    0.00%  1.1410us         2     570ns     406ns     735ns  cuDriverGetVersion
+                    0.00%  1.0280us         3     342ns     280ns     426ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71208== NVPROF is profiling process 71208, command: ./gaussian_regularm 112640
+
+Time total (including memory transfers)	0.000028 sec
+==71208== Profiling application: ./gaussian_regularm 112640
+==71208== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.05%  634.09ms        13  48.776ms     471ns  438.55ms  cudaFree
+                   30.77%  282.57ms         5  56.514ms     457ns  282.33ms  cudaMalloc
+                    0.12%  1.0884ms         3  362.80us  342.53us  388.95us  cuDeviceTotalMem
+                    0.05%  438.31us       297  1.4750us     129ns  66.332us  cuDeviceGetAttribute
+                    0.01%  82.991us         3  27.663us  22.061us  32.111us  cuDeviceGetName
+                    0.00%  19.728us        18  1.0960us     362ns  8.0800us  cudaEventCreateWithFlags
+                    0.00%  13.310us         5  2.6620us  1.0680us  5.6570us  cudaDeviceSynchronize
+                    0.00%  9.5930us        18     532ns     319ns  1.9230us  cudaEventDestroy
+                    0.00%  8.1220us         3  2.7070us     395ns  5.7270us  cudaGetDevice
+                    0.00%  6.0270us        12     502ns     278ns  2.0700us  cudaDeviceGetAttribute
+                    0.00%  5.5290us         1  5.5290us  5.5290us  5.5290us  cuDeviceGetPCIBusId
+                    0.00%  5.1170us         2  2.5580us  2.1540us  2.9630us  cuInit
+                    0.00%  1.7710us         4     442ns     226ns     977ns  cuDeviceGet
+                    0.00%  1.7050us         4     426ns     145ns  1.2030us  cudaMemcpy
+                    0.00%  1.6710us         5     334ns     154ns     632ns  cuDeviceGetCount
+                    0.00%  1.6310us         1  1.6310us  1.6310us  1.6310us  cudaGetSymbolAddress
+                    0.00%     978ns         2     489ns     390ns     588ns  cuDriverGetVersion
+                    0.00%     784ns         3     261ns     238ns     303ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71223== NVPROF is profiling process 71223, command: ./gaussian_regularm 122880
+
+Time total (including memory transfers)	0.000055 sec
+==71223== Profiling application: ./gaussian_regularm 122880
+==71223== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.21%  634.04ms        13  48.772ms     476ns  438.94ms  cudaFree
+                   30.60%  280.30ms         5  56.060ms     444ns  280.04ms  cudaMalloc
+                    0.12%  1.1003ms         3  366.77us  359.09us  374.22us  cuDeviceTotalMem
+                    0.05%  482.74us       297  1.6250us     125ns  84.320us  cuDeviceGetAttribute
+                    0.01%  82.578us         3  27.526us  21.151us  34.301us  cuDeviceGetName
+                    0.00%  22.073us        18  1.2260us     375ns  7.9880us  cudaEventCreateWithFlags
+                    0.00%  14.623us         5  2.9240us  1.6640us  6.0640us  cudaDeviceSynchronize
+                    0.00%  10.844us        18     602ns     333ns  2.1160us  cudaEventDestroy
+                    0.00%  6.7700us         3  2.2560us     335ns  4.3690us  cudaGetDevice
+                    0.00%  5.7660us         1  5.7660us  5.7660us  5.7660us  cuDeviceGetPCIBusId
+                    0.00%  5.6430us         2  2.8210us  2.3030us  3.3400us  cuInit
+                    0.00%  5.0530us        12     421ns     276ns  1.4110us  cudaDeviceGetAttribute
+                    0.00%  1.8050us         4     451ns     163ns  1.2860us  cudaMemcpy
+                    0.00%  1.8040us         4     451ns     266ns     974ns  cuDeviceGet
+                    0.00%  1.7570us         5     351ns     169ns     750ns  cuDeviceGetCount
+                    0.00%     928ns         2     464ns     377ns     551ns  cuDriverGetVersion
+                    0.00%     900ns         3     300ns     272ns     322ns  cuDeviceGetUuid
+                    0.00%     875ns         1     875ns     875ns     875ns  cudaGetSymbolAddress
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71242== NVPROF is profiling process 71242, command: ./gaussian_regularm 133120
+
+Time total (including memory transfers)	0.000056 sec
+==71242== Profiling application: ./gaussian_regularm 133120
+==71242== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.62%  636.61ms        13  48.970ms     455ns  441.80ms  cudaFree
+                   31.17%  289.18ms         5  57.836ms     446ns  288.89ms  cudaMalloc
+                    0.13%  1.2290ms         3  409.68us  346.15us  453.60us  cuDeviceTotalMem
+                    0.05%  471.80us       297  1.5880us     126ns  73.101us  cuDeviceGetAttribute
+                    0.01%  85.253us         3  28.417us  23.595us  31.057us  cuDeviceGetName
+                    0.01%  46.406us         5  9.2810us  1.0070us  36.568us  cudaDeviceSynchronize
+                    0.00%  23.864us        18  1.3250us     407ns  8.8900us  cudaEventCreateWithFlags
+                    0.00%  8.5920us        18     477ns     345ns  1.9220us  cudaEventDestroy
+                    0.00%  7.6820us         3  2.5600us     378ns  5.1210us  cudaGetDevice
+                    0.00%  5.6150us         2  2.8070us  2.3170us  3.2980us  cuInit
+                    0.00%  5.4720us         1  5.4720us  5.4720us  5.4720us  cuDeviceGetPCIBusId
+                    0.00%  5.4550us        12     454ns     288ns  1.5650us  cudaDeviceGetAttribute
+                    0.00%  2.2780us         5     455ns     192ns     837ns  cuDeviceGetCount
+                    0.00%  2.1790us         4     544ns     167ns  1.6210us  cudaMemcpy
+                    0.00%  1.8430us         4     460ns     245ns     965ns  cuDeviceGet
+                    0.00%  1.3620us         1  1.3620us  1.3620us  1.3620us  cudaGetSymbolAddress
+                    0.00%     980ns         2     490ns     450ns     530ns  cuDriverGetVersion
+                    0.00%     936ns         3     312ns     283ns     328ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71261== NVPROF is profiling process 71261, command: ./gaussian_regularm 143360
+
+Time total (including memory transfers)	0.000080 sec
+==71261== Profiling application: ./gaussian_regularm 143360
+==71261== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.39%  642.37ms        13  49.413ms     566ns  444.09ms  cudaFree
+                   30.42%  281.61ms         5  56.321ms     457ns  281.28ms  cudaMalloc
+                    0.12%  1.1267ms         3  375.58us  340.26us  440.01us  cuDeviceTotalMem
+                    0.05%  451.82us       297  1.5210us     126ns  71.070us  cuDeviceGetAttribute
+                    0.01%  86.920us         3  28.973us  21.319us  33.473us  cuDeviceGetName
+                    0.00%  26.497us        18  1.4720us     580ns  9.3280us  cudaEventCreateWithFlags
+                    0.00%  19.023us         5  3.8040us  1.7860us  7.2680us  cudaDeviceSynchronize
+                    0.00%  13.429us        18     746ns     520ns  1.8270us  cudaEventDestroy
+                    0.00%  7.7880us        12     649ns     403ns  2.1860us  cudaDeviceGetAttribute
+                    0.00%  7.7490us         3  2.5830us     343ns  5.2530us  cudaGetDevice
+                    0.00%  6.6610us         1  6.6610us  6.6610us  6.6610us  cuDeviceGetPCIBusId
+                    0.00%  6.0150us         2  3.0070us  2.4300us  3.5850us  cuInit
+                    0.00%  2.2120us         5     442ns     200ns  1.0570us  cuDeviceGetCount
+                    0.00%  2.1740us         4     543ns     263ns  1.3420us  cudaMemcpy
+                    0.00%  1.8770us         4     469ns     261ns     951ns  cuDeviceGet
+                    0.00%  1.7230us         1  1.7230us  1.7230us  1.7230us  cudaGetSymbolAddress
+                    0.00%     954ns         2     477ns     441ns     513ns  cuDriverGetVersion
+                    0.00%     872ns         3     290ns     275ns     305ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71280== NVPROF is profiling process 71280, command: ./gaussian_regularm 153600
+
+Time total (including memory transfers)	0.000030 sec
+==71280== Profiling application: ./gaussian_regularm 153600
+==71280== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   71.83%  754.55ms        13  58.042ms     608ns  526.20ms  cudaFree
+                   27.98%  293.94ms         5  58.789ms     411ns  293.65ms  cudaMalloc
+                    0.12%  1.2481ms         3  416.04us  348.55us  529.03us  cuDeviceTotalMem
+                    0.05%  507.58us       297  1.7090us     126ns  91.980us  cuDeviceGetAttribute
+                    0.01%  86.491us         3  28.830us  20.219us  38.543us  cuDeviceGetName
+                    0.00%  24.560us        18  1.3640us     374ns  10.446us  cudaEventCreateWithFlags
+                    0.00%  18.296us        18  1.0160us     477ns  6.5640us  cudaEventDestroy
+                    0.00%  15.676us         5  3.1350us  1.8720us  6.1440us  cudaDeviceSynchronize
+                    0.00%  11.287us         3  3.7620us     673ns  8.4950us  cudaGetDevice
+                    0.00%  6.0800us         2  3.0400us  2.2170us  3.8630us  cuInit
+                    0.00%  5.6380us        12     469ns     280ns  1.8610us  cudaDeviceGetAttribute
+                    0.00%  5.3960us         1  5.3960us  5.3960us  5.3960us  cuDeviceGetPCIBusId
+                    0.00%  2.0060us         4     501ns     295ns     948ns  cuDeviceGet
+                    0.00%  1.9610us         4     490ns     203ns  1.3320us  cudaMemcpy
+                    0.00%  1.9040us         5     380ns     221ns     660ns  cuDeviceGetCount
+                    0.00%  1.4020us         2     701ns     494ns     908ns  cuDriverGetVersion
+                    0.00%     895ns         3     298ns     247ns     343ns  cuDeviceGetUuid
+                    0.00%     703ns         1     703ns     703ns     703ns  cudaGetSymbolAddress
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71301== NVPROF is profiling process 71301, command: ./gaussian_regularm 163840
+
+Time total (including memory transfers)	0.000079 sec
+==71301== Profiling application: ./gaussian_regularm 163840
+==71301== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.01%  641.53ms        13  49.348ms     525ns  443.39ms  cudaFree
+                   31.81%  300.09ms         5  60.019ms     470ns  299.85ms  cudaMalloc
+                    0.11%  1.0252ms         3  341.73us  341.29us  342.31us  cuDeviceTotalMem
+                    0.05%  461.68us       297  1.5540us     130ns  86.594us  cuDeviceGetAttribute
+                    0.01%  86.803us         3  28.934us  24.795us  33.748us  cuDeviceGetName
+                    0.00%  24.272us         1  24.272us  24.272us  24.272us  cuDeviceGetPCIBusId
+                    0.00%  19.332us         5  3.8660us  1.0770us  11.657us  cudaDeviceSynchronize
+                    0.00%  17.239us        18     957ns     358ns  7.0790us  cudaEventCreateWithFlags
+                    0.00%  16.050us        18     891ns     324ns  6.9340us  cudaEventDestroy
+                    0.00%  6.4640us         3  2.1540us     375ns  3.9310us  cudaGetDevice
+                    0.00%  5.6790us        12     473ns     272ns  2.1210us  cudaDeviceGetAttribute
+                    0.00%  5.4510us         2  2.7250us  2.3500us  3.1010us  cuInit
+                    0.00%  2.0710us         5     414ns     203ns     754ns  cuDeviceGetCount
+                    0.00%  1.9950us         4     498ns     153ns  1.5190us  cudaMemcpy
+                    0.00%  1.8450us         4     461ns     235ns  1.0520us  cuDeviceGet
+                    0.00%  1.1280us         1  1.1280us  1.1280us  1.1280us  cudaGetSymbolAddress
+                    0.00%     972ns         2     486ns     313ns     659ns  cuDriverGetVersion
+                    0.00%     831ns         3     277ns     255ns     320ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71320== NVPROF is profiling process 71320, command: ./gaussian_regularm 174080
+
+Time total (including memory transfers)	0.000025 sec
+==71320== Profiling application: ./gaussian_regularm 174080
+==71320== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.86%  628.99ms        13  48.384ms     442ns  429.50ms  cudaFree
+                   30.91%  282.36ms         5  56.472ms     411ns  282.12ms  cudaMalloc
+                    0.15%  1.3512ms         3  450.40us  357.44us  561.54us  cuDeviceTotalMem
+                    0.06%  506.15us       297  1.7040us     127ns  88.389us  cuDeviceGetAttribute
+                    0.01%  93.693us         3  31.231us  22.042us  39.964us  cuDeviceGetName
+                    0.00%  23.258us        18  1.2920us     356ns  8.9080us  cudaEventCreateWithFlags
+                    0.00%  14.176us         5  2.8350us  1.5450us  5.7570us  cudaDeviceSynchronize
+                    0.00%  11.520us        18     640ns     372ns  2.2700us  cudaEventDestroy
+                    0.00%  10.759us         3  3.5860us     583ns  8.1820us  cudaGetDevice
+                    0.00%  5.6230us         1  5.6230us  5.6230us  5.6230us  cuDeviceGetPCIBusId
+                    0.00%  5.5900us        12     465ns     268ns  2.0940us  cudaDeviceGetAttribute
+                    0.00%  4.7880us         2  2.3940us  2.3130us  2.4750us  cuInit
+                    0.00%  2.1110us         5     422ns     182ns     896ns  cuDeviceGetCount
+                    0.00%  2.1060us         4     526ns     239ns  1.1390us  cuDeviceGet
+                    0.00%  1.7790us         4     444ns     145ns  1.3040us  cudaMemcpy
+                    0.00%  1.3800us         1  1.3800us  1.3800us  1.3800us  cudaGetSymbolAddress
+                    0.00%  1.1820us         2     591ns     427ns     755ns  cuDriverGetVersion
+                    0.00%     972ns         3     324ns     300ns     357ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71339== NVPROF is profiling process 71339, command: ./gaussian_regularm 184320
+
+Time total (including memory transfers)	0.000026 sec
+==71339== Profiling application: ./gaussian_regularm 184320
+==71339== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.00%  629.06ms        13  48.389ms     538ns  431.96ms  cudaFree
+                   30.81%  280.92ms         5  56.183ms     379ns  280.66ms  cudaMalloc
+                    0.12%  1.0939ms         3  364.62us  341.11us  379.01us  cuDeviceTotalMem
+                    0.05%  474.74us       297  1.5980us     128ns  98.355us  cuDeviceGetAttribute
+                    0.01%  77.484us         3  25.828us  19.613us  30.607us  cuDeviceGetName
+                    0.00%  28.332us        18  1.5740us     367ns  13.196us  cudaEventCreateWithFlags
+                    0.00%  13.950us         5  2.7900us  1.1590us  5.7430us  cudaDeviceSynchronize
+                    0.00%  12.300us         3  4.1000us     338ns  9.9450us  cudaGetDevice
+                    0.00%  10.110us        18     561ns     324ns  1.9500us  cudaEventDestroy
+                    0.00%  5.3430us        12     445ns     273ns  1.7690us  cudaDeviceGetAttribute
+                    0.00%  4.9410us         1  4.9410us  4.9410us  4.9410us  cuDeviceGetPCIBusId
+                    0.00%  4.4890us         2  2.2440us  2.1920us  2.2970us  cuInit
+                    0.00%  1.9300us         4     482ns     144ns  1.4280us  cudaMemcpy
+                    0.00%  1.9290us         5     385ns     199ns     842ns  cuDeviceGetCount
+                    0.00%  1.8520us         4     463ns     193ns  1.1730us  cuDeviceGet
+                    0.00%  1.1010us         1  1.1010us  1.1010us  1.1010us  cudaGetSymbolAddress
+                    0.00%     961ns         2     480ns     416ns     545ns  cuDriverGetVersion
+                    0.00%     784ns         3     261ns     234ns     275ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71358== NVPROF is profiling process 71358, command: ./gaussian_regularm 194560
+
+Time total (including memory transfers)	0.000040 sec
+==71358== Profiling application: ./gaussian_regularm 194560
+==71358== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.29%  632.64ms        13  48.664ms     539ns  439.52ms  cudaFree
+                   31.53%  292.11ms         5  58.422ms     371ns  291.83ms  cudaMalloc
+                    0.11%  1.0592ms         3  353.07us  348.12us  361.60us  cuDeviceTotalMem
+                    0.05%  434.33us       297  1.4620us     126ns  63.909us  cuDeviceGetAttribute
+                    0.01%  78.588us         3  26.196us  20.595us  30.827us  cuDeviceGetName
+                    0.00%  27.244us         5  5.4480us  1.7410us  18.027us  cudaDeviceSynchronize
+                    0.00%  25.256us        18  1.4030us     388ns  10.039us  cudaEventCreateWithFlags
+                    0.00%  11.267us        18     625ns     344ns  1.8830us  cudaEventDestroy
+                    0.00%  7.3080us         3  2.4360us     433ns  4.5400us  cudaGetDevice
+                    0.00%  6.1580us         1  6.1580us  6.1580us  6.1580us  cuDeviceGetPCIBusId
+                    0.00%  5.7660us        12     480ns     294ns  1.6200us  cudaDeviceGetAttribute
+                    0.00%  5.0070us         2  2.5030us  2.1390us  2.8680us  cuInit
+                    0.00%  2.7470us         5     549ns     211ns  1.3190us  cuDeviceGetCount
+                    0.00%  1.8300us         4     457ns     212ns     949ns  cuDeviceGet
+                    0.00%  1.7280us         4     432ns     159ns  1.1700us  cudaMemcpy
+                    0.00%  1.2260us         1  1.2260us  1.2260us  1.2260us  cudaGetSymbolAddress
+                    0.00%     876ns         3     292ns     261ns     321ns  cuDeviceGetUuid
+                    0.00%     813ns         2     406ns     345ns     468ns  cuDriverGetVersion
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71377== NVPROF is profiling process 71377, command: ./gaussian_regularm 204800
+
+Time total (including memory transfers)	0.000030 sec
+==71377== Profiling application: ./gaussian_regularm 204800
+==71377== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.76%  638.65ms        13  49.127ms     465ns  441.90ms  cudaFree
+                   31.04%  288.36ms         5  57.673ms     396ns  288.10ms  cudaMalloc
+                    0.13%  1.2139ms         3  404.65us  349.48us  442.94us  cuDeviceTotalMem
+                    0.05%  469.12us       297  1.5790us     128ns  81.734us  cuDeviceGetAttribute
+                    0.01%  90.613us         3  30.204us  23.515us  40.326us  cuDeviceGetName
+                    0.00%  25.112us        18  1.3950us     367ns  8.3270us  cudaEventCreateWithFlags
+                    0.00%  14.363us         5  2.8720us  1.6230us  6.1410us  cudaDeviceSynchronize
+                    0.00%  10.759us        18     597ns     329ns  1.7690us  cudaEventDestroy
+                    0.00%  6.4440us         3  2.1480us     405ns  3.8740us  cudaGetDevice
+                    0.00%  6.0240us         2  3.0120us  2.9600us  3.0640us  cuInit
+                    0.00%  5.7510us         1  5.7510us  5.7510us  5.7510us  cuDeviceGetPCIBusId
+                    0.00%  5.1130us        12     426ns     277ns  1.4870us  cudaDeviceGetAttribute
+                    0.00%  2.2860us         4     571ns     215ns  1.4260us  cuDeviceGet
+                    0.00%  1.8820us         5     376ns     215ns     778ns  cuDeviceGetCount
+                    0.00%  1.7500us         4     437ns     152ns  1.2350us  cudaMemcpy
+                    0.00%  1.6050us         1  1.6050us  1.6050us  1.6050us  cudaGetSymbolAddress
+                    0.00%  1.1980us         2     599ns     487ns     711ns  cuDriverGetVersion
+                    0.00%     831ns         3     277ns     265ns     295ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71392== NVPROF is profiling process 71392, command: ./gaussian_regularm 215040
+
+Time total (including memory transfers)	0.000025 sec
+==71392== Profiling application: ./gaussian_regularm 215040
+==71392== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.88%  654.93ms        13  50.379ms     542ns  464.17ms  cudaFree
+                   30.91%  293.86ms         5  58.772ms     404ns  293.55ms  cudaMalloc
+                    0.13%  1.2699ms         3  423.30us  351.91us  532.27us  cuDeviceTotalMem
+                    0.06%  541.02us       297  1.8210us     127ns  101.91us  cuDeviceGetAttribute
+                    0.01%  89.227us         3  29.742us  21.700us  37.835us  cuDeviceGetName
+                    0.00%  23.056us        18  1.2800us     365ns  8.4530us  cudaEventCreateWithFlags
+                    0.00%  14.258us         5  2.8510us  1.0080us  6.1140us  cudaDeviceSynchronize
+                    0.00%  13.548us         3  4.5160us     940ns  10.091us  cudaGetDevice
+                    0.00%  10.845us        18     602ns     326ns  2.2840us  cudaEventDestroy
+                    0.00%  6.7160us         1  6.7160us  6.7160us  6.7160us  cuDeviceGetPCIBusId
+                    0.00%  5.6950us         2  2.8470us  2.0570us  3.6380us  cuInit
+                    0.00%  5.4640us        12     455ns     291ns  1.7760us  cudaDeviceGetAttribute
+                    0.00%  2.4790us         4     619ns     210ns  1.6320us  cuDeviceGet
+                    0.00%  2.4590us         5     491ns     171ns  1.3260us  cuDeviceGetCount
+                    0.00%  1.8040us         4     451ns     148ns  1.3210us  cudaMemcpy
+                    0.00%  1.6170us         1  1.6170us  1.6170us  1.6170us  cudaGetSymbolAddress
+                    0.00%  1.3320us         2     666ns     508ns     824ns  cuDriverGetVersion
+                    0.00%     961ns         3     320ns     257ns     429ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71413== NVPROF is profiling process 71413, command: ./gaussian_regularm 225280
+
+Time total (including memory transfers)	0.000031 sec
+==71413== Profiling application: ./gaussian_regularm 225280
+==71413== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   72.61%  794.19ms        13  61.092ms     649ns  585.39ms  cudaFree
+                   27.21%  297.64ms         5  59.528ms     451ns  297.31ms  cudaMalloc
+                    0.11%  1.2201ms         3  406.70us  341.29us  467.46us  cuDeviceTotalMem
+                    0.05%  553.34us       297  1.8630us     128ns  85.203us  cuDeviceGetAttribute
+                    0.01%  86.576us         3  28.858us  23.755us  35.386us  cuDeviceGetName
+                    0.00%  30.810us        18  1.7110us     495ns  10.118us  cudaEventCreateWithFlags
+                    0.00%  21.401us         5  4.2800us  1.5440us  7.1440us  cudaDeviceSynchronize
+                    0.00%  14.561us        18     808ns     518ns  3.5250us  cudaEventDestroy
+                    0.00%  7.8250us        12     652ns     427ns  1.7550us  cudaDeviceGetAttribute
+                    0.00%  6.4590us         1  6.4590us  6.4590us  6.4590us  cuDeviceGetPCIBusId
+                    0.00%  5.3060us         2  2.6530us  2.4130us  2.8930us  cuInit
+                    0.00%  5.0010us         3  1.6670us     439ns  2.6840us  cudaGetDevice
+                    0.00%  2.4860us         5     497ns     180ns  1.3090us  cuDeviceGetCount
+                    0.00%  2.0550us         4     513ns     202ns  1.2570us  cuDeviceGet
+                    0.00%  1.9590us         4     489ns     242ns  1.1980us  cudaMemcpy
+                    0.00%  1.5190us         1  1.5190us  1.5190us  1.5190us  cudaGetSymbolAddress
+                    0.00%  1.1500us         2     575ns     510ns     640ns  cuDriverGetVersion
+                    0.00%     905ns         3     301ns     254ns     336ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71432== NVPROF is profiling process 71432, command: ./gaussian_regularm 235520
+
+Time total (including memory transfers)	0.000040 sec
+==71432== Profiling application: ./gaussian_regularm 235520
+==71432== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.07%  639.35ms        13  49.181ms     540ns  447.14ms  cudaFree
+                   30.75%  284.65ms         5  56.929ms     410ns  284.30ms  cudaMalloc
+                    0.11%  1.0618ms         3  353.94us  347.49us  363.27us  cuDeviceTotalMem
+                    0.05%  431.89us       297  1.4540us     125ns  66.380us  cuDeviceGetAttribute
+                    0.01%  98.051us         3  32.683us  25.189us  42.947us  cuDeviceGetName
+                    0.00%  33.496us        18  1.8600us     514ns  11.363us  cudaEventCreateWithFlags
+                    0.00%  22.334us         5  4.4660us  1.6070us  8.0400us  cudaDeviceSynchronize
+                    0.00%  13.528us        18     751ns     459ns  2.3060us  cudaEventDestroy
+                    0.00%  8.3100us         3  2.7700us     399ns  5.2150us  cudaGetDevice
+                    0.00%  7.5090us        12     625ns     431ns  1.7850us  cudaDeviceGetAttribute
+                    0.00%  6.7560us         1  6.7560us  6.7560us  6.7560us  cuDeviceGetPCIBusId
+                    0.00%  5.8040us         2  2.9020us  2.4890us  3.3150us  cuInit
+                    0.00%  2.5800us         5     516ns     225ns  1.2450us  cuDeviceGetCount
+                    0.00%  2.3140us         4     578ns     256ns  1.3850us  cudaMemcpy
+                    0.00%  1.8690us         4     467ns     258ns     999ns  cuDeviceGet
+                    0.00%  1.4400us         1  1.4400us  1.4400us  1.4400us  cudaGetSymbolAddress
+                    0.00%     997ns         2     498ns     416ns     581ns  cuDriverGetVersion
+                    0.00%     804ns         3     268ns     249ns     278ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71451== NVPROF is profiling process 71451, command: ./gaussian_regularm 245760
+
+Time total (including memory transfers)	0.000030 sec
+==71451== Profiling application: ./gaussian_regularm 245760
+==71451== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.46%  625.39ms        13  48.107ms     490ns  430.63ms  cudaFree
+                   31.32%  286.09ms         5  57.218ms     410ns  285.83ms  cudaMalloc
+                    0.14%  1.2882ms         3  429.42us  341.93us  598.13us  cuDeviceTotalMem
+                    0.06%  515.25us       297  1.7340us     128ns  81.314us  cuDeviceGetAttribute
+                    0.01%  91.615us         3  30.538us  23.345us  36.853us  cuDeviceGetName
+                    0.00%  20.299us        18  1.1270us     367ns  7.3390us  cudaEventCreateWithFlags
+                    0.00%  13.386us         5  2.6770us  1.1340us  5.6400us  cudaDeviceSynchronize
+                    0.00%  9.7750us        18     543ns     325ns  1.7510us  cudaEventDestroy
+                    0.00%  7.3640us         1  7.3640us  7.3640us  7.3640us  cuDeviceGetPCIBusId
+                    0.00%  7.0210us         3  2.3400us     435ns  4.6110us  cudaGetDevice
+                    0.00%  5.6190us         2  2.8090us  2.3140us  3.3050us  cuInit
+                    0.00%  5.0150us        12     417ns     273ns  1.3820us  cudaDeviceGetAttribute
+                    0.00%  2.9490us         5     589ns     289ns  1.7130us  cuDeviceGetCount
+                    0.00%  2.1460us         4     536ns     265ns  1.3010us  cuDeviceGet
+                    0.00%  2.0500us         4     512ns     156ns  1.5450us  cudaMemcpy
+                    0.00%  1.3320us         1  1.3320us  1.3320us  1.3320us  cudaGetSymbolAddress
+                    0.00%     926ns         2     463ns     419ns     507ns  cuDriverGetVersion
+                    0.00%     883ns         3     294ns     243ns     370ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71470== NVPROF is profiling process 71470, command: ./gaussian_regularm 256000
+
+Time total (including memory transfers)	0.000028 sec
+==71470== Profiling application: ./gaussian_regularm 256000
+==71470== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   72.17%  771.74ms        13  59.365ms     499ns  570.14ms  cudaFree
+                   27.63%  295.42ms         5  59.083ms     590ns  295.15ms  cudaMalloc
+                    0.13%  1.4201ms         3  473.35us  351.45us  544.38us  cuDeviceTotalMem
+                    0.05%  543.21us       297  1.8280us     129ns  84.681us  cuDeviceGetAttribute
+                    0.01%  94.410us         3  31.470us  26.113us  39.285us  cuDeviceGetName
+                    0.00%  17.601us        18     977ns     372ns  7.3030us  cudaEventCreateWithFlags
+                    0.00%  15.075us         5  3.0150us  1.0330us  6.7460us  cudaDeviceSynchronize
+                    0.00%  14.204us        18     789ns     337ns  6.2480us  cudaEventDestroy
+                    0.00%  13.852us         3  4.6170us     743ns  10.770us  cudaGetDevice
+                    0.00%  11.376us         1  11.376us  11.376us  11.376us  cuDeviceGetPCIBusId
+                    0.00%  6.6700us         2  3.3350us  2.5490us  4.1210us  cuInit
+                    0.00%  5.2820us        12     440ns     278ns  1.6030us  cudaDeviceGetAttribute
+                    0.00%  2.5650us         4     641ns     341ns  1.3810us  cuDeviceGet
+                    0.00%  2.4800us         5     496ns     209ns  1.0260us  cuDeviceGetCount
+                    0.00%  1.9560us         2     978ns     601ns  1.3550us  cuDriverGetVersion
+                    0.00%  1.5230us         4     380ns     166ns     978ns  cudaMemcpy
+                    0.00%  1.2350us         1  1.2350us  1.2350us  1.2350us  cudaGetSymbolAddress
+                    0.00%     993ns         3     331ns     257ns     380ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71491== NVPROF is profiling process 71491, command: ./gaussian_regularm 266240
+
+Time total (including memory transfers)	0.000036 sec
+==71491== Profiling application: ./gaussian_regularm 266240
+==71491== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.65%  643.65ms        13  49.511ms     506ns  438.29ms  cudaFree
+                   33.10%  319.67ms         5  63.934ms     529ns  319.34ms  cudaMalloc
+                    0.17%  1.6189ms         3  539.64us  417.09us  644.01us  cuDeviceTotalMem
+                    0.06%  579.91us       297  1.9520us     148ns  91.535us  cuDeviceGetAttribute
+                    0.01%  91.751us         3  30.583us  22.103us  35.589us  cuDeviceGetName
+                    0.00%  25.056us        18  1.3920us     603ns  8.6930us  cudaEventCreateWithFlags
+                    0.00%  21.216us         5  4.2430us  1.6200us  7.2320us  cudaDeviceSynchronize
+                    0.00%  16.277us        18     904ns     437ns  6.8610us  cudaEventDestroy
+                    0.00%  9.3860us         3  3.1280us     435ns  6.0760us  cudaGetDevice
+                    0.00%  8.6090us         1  8.6090us  8.6090us  8.6090us  cuDeviceGetPCIBusId
+                    0.00%  8.1560us        12     679ns     471ns  1.9600us  cudaDeviceGetAttribute
+                    0.00%  5.3550us         2  2.6770us  2.2500us  3.1050us  cuInit
+                    0.00%  3.3530us         5     670ns     267ns  1.5880us  cuDeviceGetCount
+                    0.00%  3.2410us         4     810ns     271ns  1.5920us  cuDeviceGet
+                    0.00%  2.2870us         4     571ns     255ns  1.4640us  cudaMemcpy
+                    0.00%  1.4970us         1  1.4970us  1.4970us  1.4970us  cudaGetSymbolAddress
+                    0.00%  1.0640us         2     532ns     525ns     539ns  cuDriverGetVersion
+                    0.00%  1.0090us         3     336ns     281ns     427ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71512== NVPROF is profiling process 71512, command: ./gaussian_regularm 276480
+
+Time total (including memory transfers)	0.000035 sec
+==71512== Profiling application: ./gaussian_regularm 276480
+==71512== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   71.93%  785.57ms        13  60.428ms     618ns  511.62ms  cudaFree
+                   27.87%  304.38ms         5  60.877ms     692ns  304.07ms  cudaMalloc
+                    0.13%  1.4213ms         3  473.77us  341.99us  556.22us  cuDeviceTotalMem
+                    0.05%  585.44us       297  1.9710us     127ns  87.272us  cuDeviceGetAttribute
+                    0.01%  106.97us         3  35.657us  28.638us  40.024us  cuDeviceGetName
+                    0.00%  25.647us        18  1.4240us     549ns  9.6760us  cudaEventCreateWithFlags
+                    0.00%  22.414us        12  1.8670us     465ns  15.394us  cudaDeviceGetAttribute
+                    0.00%  19.331us         5  3.8660us  1.6390us  7.6840us  cudaDeviceSynchronize
+                    0.00%  13.262us        18     736ns     492ns  2.2740us  cudaEventDestroy
+                    0.00%  8.0660us         2  4.0330us  3.9520us  4.1140us  cuInit
+                    0.00%  6.7990us         3  2.2660us     704ns  3.5540us  cudaGetDevice
+                    0.00%  5.9680us         1  5.9680us  5.9680us  5.9680us  cuDeviceGetPCIBusId
+                    0.00%  3.1700us         5     634ns     212ns  1.3970us  cuDeviceGetCount
+                    0.00%  2.2980us         4     574ns     248ns  1.5090us  cudaMemcpy
+                    0.00%  2.2890us         4     572ns     340ns  1.1200us  cuDeviceGet
+                    0.00%  2.1560us         2  1.0780us  1.0210us  1.1350us  cuDriverGetVersion
+                    0.00%  1.5570us         1  1.5570us  1.5570us  1.5570us  cudaGetSymbolAddress
+                    0.00%     968ns         3     322ns     276ns     360ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71531== NVPROF is profiling process 71531, command: ./gaussian_regularm 286720
+
+Time total (including memory transfers)	0.000338 sec
+==71531== Profiling application: ./gaussian_regularm 286720
+==71531== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   62.48%  622.75ms        13  47.904ms     457ns  433.51ms  cudaFree
+                   37.32%  371.95ms         5  74.391ms     485ns  371.67ms  cudaMalloc
+                    0.14%  1.3718ms         3  457.25us  356.02us  635.79us  cuDeviceTotalMem
+                    0.05%  534.08us       297  1.7980us     126ns  116.43us  cuDeviceGetAttribute
+                    0.01%  91.940us         3  30.646us  22.845us  37.656us  cuDeviceGetName
+                    0.00%  18.167us         5  3.6330us     995ns  7.5980us  cudaDeviceSynchronize
+                    0.00%  17.961us        18     997ns     391ns  7.3570us  cudaEventCreateWithFlags
+                    0.00%  16.466us        18     914ns     321ns  6.8910us  cudaEventDestroy
+                    0.00%  8.7840us         1  8.7840us  8.7840us  8.7840us  cuDeviceGetPCIBusId
+                    0.00%  6.6980us         3  2.2320us     393ns  4.3750us  cudaGetDevice
+                    0.00%  5.3150us        12     442ns     287ns  1.6340us  cudaDeviceGetAttribute
+                    0.00%  4.9710us         2  2.4850us  2.0700us  2.9010us  cuInit
+                    0.00%  3.0920us         4     773ns     156ns  2.5980us  cudaMemcpy
+                    0.00%  2.9990us         5     599ns     271ns  1.3390us  cuDeviceGetCount
+                    0.00%  2.7930us         4     698ns     241ns  1.7290us  cuDeviceGet
+                    0.00%     958ns         2     479ns     466ns     492ns  cuDriverGetVersion
+                    0.00%     939ns         3     313ns     261ns     387ns  cuDeviceGetUuid
+                    0.00%     904ns         1     904ns     904ns     904ns  cudaGetSymbolAddress
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71550== NVPROF is profiling process 71550, command: ./gaussian_regularm 296960
+
+Time total (including memory transfers)	0.000027 sec
+==71550== Profiling application: ./gaussian_regularm 296960
+==71550== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.60%  650.84ms        13  50.064ms     521ns  433.42ms  cudaFree
+                   31.18%  295.88ms         5  59.175ms     626ns  295.63ms  cudaMalloc
+                    0.14%  1.3583ms         3  452.78us  360.26us  624.79us  cuDeviceTotalMem
+                    0.06%  546.10us       297  1.8380us     127ns  110.17us  cuDeviceGetAttribute
+                    0.01%  101.37us         3  33.789us  31.411us  36.814us  cuDeviceGetName
+                    0.00%  23.383us        18  1.2990us     366ns  9.4080us  cudaEventCreateWithFlags
+                    0.00%  13.593us         5  2.7180us  1.5670us  5.1170us  cudaDeviceSynchronize
+                    0.00%  11.407us        18     633ns     335ns  2.1820us  cudaEventDestroy
+                    0.00%  6.9120us         3  2.3040us     382ns  4.3740us  cudaGetDevice
+                    0.00%  5.3530us        12     446ns     274ns  1.5640us  cudaDeviceGetAttribute
+                    0.00%  5.2360us         2  2.6180us  2.2590us  2.9770us  cuInit
+                    0.00%  5.2260us         1  5.2260us  5.2260us  5.2260us  cuDeviceGetPCIBusId
+                    0.00%  2.1290us         5     425ns     163ns     799ns  cuDeviceGetCount
+                    0.00%  2.1220us         4     530ns     234ns  1.1330us  cuDeviceGet
+                    0.00%  2.1040us         4     526ns     151ns  1.6150us  cudaMemcpy
+                    0.00%  1.1940us         2     597ns     428ns     766ns  cuDriverGetVersion
+                    0.00%  1.0320us         1  1.0320us  1.0320us  1.0320us  cudaGetSymbolAddress
+                    0.00%     883ns         3     294ns     246ns     360ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71569== NVPROF is profiling process 71569, command: ./gaussian_regularm 307200
+
+Time total (including memory transfers)	0.000028 sec
+==71569== Profiling application: ./gaussian_regularm 307200
+==71569== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.99%  629.15ms        13  48.396ms     477ns  429.31ms  cudaFree
+                   30.83%  281.15ms         5  56.230ms     473ns  280.90ms  cudaMalloc
+                    0.12%  1.0916ms         3  363.86us  353.58us  373.31us  cuDeviceTotalMem
+                    0.05%  440.82us       297  1.4840us     127ns  66.282us  cuDeviceGetAttribute
+                    0.01%  83.921us         3  27.973us  21.396us  31.878us  cuDeviceGetName
+                    0.00%  16.739us        18     929ns     380ns  7.3120us  cudaEventCreateWithFlags
+                    0.00%  13.303us         5  2.6600us  1.4940us  5.2750us  cudaDeviceSynchronize
+                    0.00%  11.543us        18     641ns     375ns  1.9410us  cudaEventDestroy
+                    0.00%  6.5720us         3  2.1900us     363ns  4.1760us  cudaGetDevice
+                    0.00%  5.1740us        12     431ns     280ns  1.4790us  cudaDeviceGetAttribute
+                    0.00%  5.0800us         2  2.5400us  2.1380us  2.9420us  cuInit
+                    0.00%  5.0050us         1  5.0050us  5.0050us  5.0050us  cuDeviceGetPCIBusId
+                    0.00%  2.3100us         5     462ns     199ns  1.1810us  cuDeviceGetCount
+                    0.00%  1.8000us         4     450ns     276ns     915ns  cuDeviceGet
+                    0.00%  1.7630us         4     440ns     163ns  1.2500us  cudaMemcpy
+                    0.00%  1.1520us         1  1.1520us  1.1520us  1.1520us  cudaGetSymbolAddress
+                    0.00%     871ns         2     435ns     430ns     441ns  cuDriverGetVersion
+                    0.00%     767ns         3     255ns     244ns     263ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71588== NVPROF is profiling process 71588, command: ./gaussian_regularm 317440
+
+Time total (including memory transfers)	0.000029 sec
+==71588== Profiling application: ./gaussian_regularm 317440
+==71588== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.48%  632.89ms        13  48.684ms     485ns  436.08ms  cudaFree
+                   31.33%  289.58ms         5  57.917ms     433ns  289.32ms  cudaMalloc
+                    0.12%  1.0911ms         3  363.70us  342.41us  401.47us  cuDeviceTotalMem
+                    0.05%  458.57us       297  1.5440us     131ns  67.894us  cuDeviceGetAttribute
+                    0.01%  78.537us         3  26.179us  20.405us  30.830us  cuDeviceGetName
+                    0.00%  23.524us        18  1.3060us     362ns  9.3580us  cudaEventCreateWithFlags
+                    0.00%  14.071us         5  2.8140us  1.5290us  5.7800us  cudaDeviceSynchronize
+                    0.00%  10.369us        18     576ns     326ns  1.6910us  cudaEventDestroy
+                    0.00%  7.8670us         1  7.8670us  7.8670us  7.8670us  cuDeviceGetPCIBusId
+                    0.00%  6.5850us         3  2.1950us     434ns  4.0320us  cudaGetDevice
+                    0.00%  5.5550us         2  2.7770us  2.6420us  2.9130us  cuInit
+                    0.00%  5.0960us        12     424ns     274ns  1.4830us  cudaDeviceGetAttribute
+                    0.00%  2.2680us         5     453ns     196ns  1.1200us  cuDeviceGetCount
+                    0.00%  2.0160us         4     504ns     151ns  1.5130us  cudaMemcpy
+                    0.00%  1.9360us         4     484ns     197ns  1.1380us  cuDeviceGet
+                    0.00%  1.0330us         1  1.0330us  1.0330us  1.0330us  cudaGetSymbolAddress
+                    0.00%     775ns         2     387ns     338ns     437ns  cuDriverGetVersion
+                    0.00%     762ns         3     254ns     231ns     275ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71609== NVPROF is profiling process 71609, command: ./gaussian_regularm 327680
+
+Time total (including memory transfers)	0.000029 sec
+==71609== Profiling application: ./gaussian_regularm 327680
+==71609== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.36%  628.64ms        13  48.357ms     509ns  437.76ms  cudaFree
+                   31.45%  289.17ms         5  57.834ms     571ns  288.92ms  cudaMalloc
+                    0.12%  1.1424ms         3  380.80us  355.61us  405.78us  cuDeviceTotalMem
+                    0.05%  447.92us       297  1.5080us     124ns  66.970us  cuDeviceGetAttribute
+                    0.01%  135.19us         3  45.063us  20.669us  80.325us  cuDeviceGetName
+                    0.00%  17.439us        18     968ns     368ns  8.6440us  cudaEventCreateWithFlags
+                    0.00%  14.405us         5  2.8810us  1.5860us  5.9180us  cudaDeviceSynchronize
+                    0.00%  10.497us        18     583ns     319ns  2.1300us  cudaEventDestroy
+                    0.00%  7.0230us         3  2.3410us     426ns  4.4670us  cudaGetDevice
+                    0.00%  6.0480us         2  3.0240us  2.8860us  3.1620us  cuInit
+                    0.00%  5.1590us        12     429ns     270ns  1.5830us  cudaDeviceGetAttribute
+                    0.00%  5.1130us         1  5.1130us  5.1130us  5.1130us  cuDeviceGetPCIBusId
+                    0.00%  1.8610us         4     465ns     253ns     981ns  cuDeviceGet
+                    0.00%  1.8480us         4     462ns     143ns  1.3780us  cudaMemcpy
+                    0.00%  1.7850us         5     357ns     168ns     699ns  cuDeviceGetCount
+                    0.00%  1.1250us         1  1.1250us  1.1250us  1.1250us  cudaGetSymbolAddress
+                    0.00%     869ns         2     434ns     415ns     454ns  cuDriverGetVersion
+                    0.00%     781ns         3     260ns     240ns     283ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71628== NVPROF is profiling process 71628, command: ./gaussian_regularm 337920
+
+Time total (including memory transfers)	0.000312 sec
+==71628== Profiling application: ./gaussian_regularm 337920
+==71628== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   69.11%  629.12ms        13  48.394ms     586ns  436.73ms  cudaFree
+                   30.65%  278.99ms         5  55.799ms     471ns  278.73ms  cudaMalloc
+                    0.17%  1.5262ms         3  508.72us  348.96us  789.24us  cuDeviceTotalMem
+                    0.05%  454.41us       297  1.5300us     127ns  69.324us  cuDeviceGetAttribute
+                    0.01%  91.083us         3  30.361us  20.195us  42.198us  cuDeviceGetName
+                    0.00%  19.800us        18  1.1000us     405ns  7.9050us  cudaEventCreateWithFlags
+                    0.00%  16.559us         5  3.3110us  1.2270us  7.7790us  cudaDeviceSynchronize
+                    0.00%  11.111us        18     617ns     341ns  1.9570us  cudaEventDestroy
+                    0.00%  6.8410us         3  2.2800us     351ns  4.4550us  cudaGetDevice
+                    0.00%  5.3170us        12     443ns     292ns  1.5710us  cudaDeviceGetAttribute
+                    0.00%  4.9830us         2  2.4910us  2.1740us  2.8090us  cuInit
+                    0.00%  4.5850us         1  4.5850us  4.5850us  4.5850us  cuDeviceGetPCIBusId
+                    0.00%  3.1740us         4     793ns     162ns  2.6020us  cudaMemcpy
+                    0.00%  2.0760us         5     415ns     182ns     878ns  cuDeviceGetCount
+                    0.00%  1.6440us         4     411ns     244ns     864ns  cuDeviceGet
+                    0.00%  1.2150us         1  1.2150us  1.2150us  1.2150us  cudaGetSymbolAddress
+                    0.00%     860ns         2     430ns     420ns     440ns  cuDriverGetVersion
+                    0.00%     842ns         3     280ns     241ns     311ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71647== NVPROF is profiling process 71647, command: ./gaussian_regularm 348160
+
+Time total (including memory transfers)	0.000027 sec
+==71647== Profiling application: ./gaussian_regularm 348160
+==71647== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   66.77%  634.78ms        13  48.829ms     546ns  440.11ms  cudaFree
+                   33.02%  313.90ms         5  62.780ms     553ns  313.64ms  cudaMalloc
+                    0.14%  1.3135ms         3  437.82us  335.63us  568.29us  cuDeviceTotalMem
+                    0.05%  512.71us       297  1.7260us     126ns  91.526us  cuDeviceGetAttribute
+                    0.01%  98.311us         3  32.770us  22.999us  42.894us  cuDeviceGetName
+                    0.00%  23.715us        18  1.3170us     366ns  9.1360us  cudaEventCreateWithFlags
+                    0.00%  19.130us         1  19.130us  19.130us  19.130us  cuDeviceGetPCIBusId
+                    0.00%  14.274us        18     793ns     326ns  5.9080us  cudaEventDestroy
+                    0.00%  13.078us         5  2.6150us  1.1160us  5.4110us  cudaDeviceSynchronize
+                    0.00%  6.8290us         3  2.2760us     434ns  4.3310us  cudaGetDevice
+                    0.00%  5.9360us         2  2.9680us  2.6110us  3.3250us  cuInit
+                    0.00%  5.4980us        12     458ns     275ns  1.7840us  cudaDeviceGetAttribute
+                    0.00%  2.6410us         5     528ns     256ns  1.2340us  cuDeviceGetCount
+                    0.00%  1.9240us         4     481ns     275ns  1.0750us  cuDeviceGet
+                    0.00%  1.7160us         4     429ns     143ns  1.2560us  cudaMemcpy
+                    0.00%  1.3750us         1  1.3750us  1.3750us  1.3750us  cudaGetSymbolAddress
+                    0.00%     905ns         3     301ns     254ns     375ns  cuDeviceGetUuid
+                    0.00%     834ns         2     417ns     331ns     503ns  cuDriverGetVersion
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71662== NVPROF is profiling process 71662, command: ./gaussian_regularm 358400
+
+Time total (including memory transfers)	0.000038 sec
+==71662== Profiling application: ./gaussian_regularm 358400
+==71662== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   73.63%  831.55ms        13  63.966ms     592ns  595.24ms  cudaFree
+                   26.21%  295.98ms         5  59.196ms     382ns  295.63ms  cudaMalloc
+                    0.10%  1.1410ms         3  380.35us  348.96us  418.15us  cuDeviceTotalMem
+                    0.04%  476.72us       297  1.6050us     125ns  84.695us  cuDeviceGetAttribute
+                    0.01%  82.898us         3  27.632us  20.280us  32.945us  cuDeviceGetName
+                    0.00%  26.556us        18  1.4750us     658ns  9.7390us  cudaEventCreateWithFlags
+                    0.00%  18.463us         5  3.6920us  1.6520us  7.2050us  cudaDeviceSynchronize
+                    0.00%  13.728us        18     762ns     540ns  2.1150us  cudaEventDestroy
+                    0.00%  8.5640us         3  2.8540us     470ns  4.9910us  cudaGetDevice
+                    0.00%  7.2590us        12     604ns     387ns  2.1510us  cudaDeviceGetAttribute
+                    0.00%  5.8440us         1  5.8440us  5.8440us  5.8440us  cuDeviceGetPCIBusId
+                    0.00%  4.8150us         2  2.4070us  1.8140us  3.0010us  cuInit
+                    0.00%  3.1700us         4     792ns     194ns  2.3840us  cudaMemcpy
+                    0.00%  2.3770us         5     475ns     188ns  1.1340us  cuDeviceGetCount
+                    0.00%  2.1080us         4     527ns     217ns  1.2910us  cuDeviceGet
+                    0.00%  1.4190us         1  1.4190us  1.4190us  1.4190us  cudaGetSymbolAddress
+                    0.00%  1.0740us         2     537ns     482ns     592ns  cuDriverGetVersion
+                    0.00%     964ns         3     321ns     298ns     342ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71685== NVPROF is profiling process 71685, command: ./gaussian_regularm 368640
+
+Time total (including memory transfers)	0.000032 sec
+==71685== Profiling application: ./gaussian_regularm 368640
+==71685== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.12%  634.08ms        13  48.776ms     593ns  433.94ms  cudaFree
+                   31.70%  295.11ms         5  59.022ms     639ns  294.84ms  cudaMalloc
+                    0.11%  1.0419ms         3  347.30us  341.26us  358.83us  cuDeviceTotalMem
+                    0.05%  438.26us       297  1.4750us     128ns  69.916us  cuDeviceGetAttribute
+                    0.01%  88.802us         3  29.600us  25.458us  33.749us  cuDeviceGetName
+                    0.00%  42.731us        18  2.3730us     445ns  25.577us  cudaEventCreateWithFlags
+                    0.00%  25.067us         5  5.0130us  1.5680us  13.464us  cudaDeviceSynchronize
+                    0.00%  10.314us        18     573ns     338ns  1.8640us  cudaEventDestroy
+                    0.00%  6.8460us         3  2.2820us     388ns  4.2840us  cudaGetDevice
+                    0.00%  6.4060us         1  6.4060us  6.4060us  6.4060us  cuDeviceGetPCIBusId
+                    0.00%  5.9180us        12     493ns     330ns  1.6990us  cudaDeviceGetAttribute
+                    0.00%  5.0130us         2  2.5060us  2.2280us  2.7850us  cuInit
+                    0.00%  2.7010us         5     540ns     254ns  1.1310us  cuDeviceGetCount
+                    0.00%  2.0510us         4     512ns     195ns  1.4280us  cudaMemcpy
+                    0.00%  1.9880us         4     497ns     245ns  1.1770us  cuDeviceGet
+                    0.00%  1.6690us         1  1.6690us  1.6690us  1.6690us  cudaGetSymbolAddress
+                    0.00%     975ns         2     487ns     382ns     593ns  cuDriverGetVersion
+                    0.00%     869ns         3     289ns     272ns     308ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71704== NVPROF is profiling process 71704, command: ./gaussian_regularm 378880
+
+Time total (including memory transfers)	0.000029 sec
+==71704== Profiling application: ./gaussian_regularm 378880
+==71704== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   67.14%  623.33ms        13  47.948ms     499ns  430.70ms  cudaFree
+                   32.69%  303.48ms         5  60.695ms     424ns  303.22ms  cudaMalloc
+                    0.11%  1.0588ms         3  352.92us  340.31us  370.36us  cuDeviceTotalMem
+                    0.05%  431.42us       297  1.4520us     131ns  64.062us  cuDeviceGetAttribute
+                    0.01%  82.219us         3  27.406us  24.387us  31.062us  cuDeviceGetName
+                    0.00%  17.352us        18     964ns     365ns  7.6900us  cudaEventCreateWithFlags
+                    0.00%  14.360us         5  2.8720us  1.5410us  5.9890us  cudaDeviceSynchronize
+                    0.00%  9.5170us        18     528ns     322ns  1.8700us  cudaEventDestroy
+                    0.00%  6.2970us         3  2.0990us     365ns  3.7520us  cudaGetDevice
+                    0.00%  5.2810us        12     440ns     274ns  1.7110us  cudaDeviceGetAttribute
+                    0.00%  5.2040us         1  5.2040us  5.2040us  5.2040us  cuDeviceGetPCIBusId
+                    0.00%  4.7650us         2  2.3820us  1.9050us  2.8600us  cuInit
+                    0.00%  1.9330us         5     386ns     171ns     859ns  cuDeviceGetCount
+                    0.00%  1.8480us         4     462ns     181ns  1.1600us  cuDeviceGet
+                    0.00%  1.7380us         4     434ns     146ns  1.2360us  cudaMemcpy
+                    0.00%  1.1530us         1  1.1530us  1.1530us  1.1530us  cudaGetSymbolAddress
+                    0.00%  1.0670us         2     533ns     366ns     701ns  cuDriverGetVersion
+                    0.00%     815ns         3     271ns     265ns     277ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71721== NVPROF is profiling process 71721, command: ./gaussian_regularm 389120
+
+Time total (including memory transfers)	0.000029 sec
+==71721== Profiling application: ./gaussian_regularm 389120
+==71721== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.24%  621.48ms        13  47.806ms     561ns  431.91ms  cudaFree
+                   31.58%  287.59ms         5  57.518ms     385ns  287.35ms  cudaMalloc
+                    0.11%  1.0415ms         3  347.18us  341.19us  350.51us  cuDeviceTotalMem
+                    0.05%  426.10us       297  1.4340us     125ns  64.970us  cuDeviceGetAttribute
+                    0.01%  81.310us         3  27.103us  20.317us  32.668us  cuDeviceGetName
+                    0.00%  19.746us        18  1.0970us     376ns  7.5370us  cudaEventCreateWithFlags
+                    0.00%  13.807us         5  2.7610us  1.5450us  5.5070us  cudaDeviceSynchronize
+                    0.00%  10.765us        18     598ns     327ns  2.0750us  cudaEventDestroy
+                    0.00%  6.9450us         3  2.3150us     382ns  4.6430us  cudaGetDevice
+                    0.00%  5.5500us         2  2.7750us  1.6920us  3.8580us  cuInit
+                    0.00%  5.0230us        12     418ns     275ns  1.4670us  cudaDeviceGetAttribute
+                    0.00%  4.8160us         1  4.8160us  4.8160us  4.8160us  cuDeviceGetPCIBusId
+                    0.00%  2.1410us         5     428ns     185ns     849ns  cuDeviceGetCount
+                    0.00%  1.9970us         4     499ns     152ns  1.4950us  cudaMemcpy
+                    0.00%  1.9450us         4     486ns     254ns     997ns  cuDeviceGet
+                    0.00%  1.1530us         1  1.1530us  1.1530us  1.1530us  cudaGetSymbolAddress
+                    0.00%     982ns         2     491ns     476ns     506ns  cuDriverGetVersion
+                    0.00%     858ns         3     286ns     270ns     312ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71740== NVPROF is profiling process 71740, command: ./gaussian_regularm 399360
+
+Time total (including memory transfers)	0.000026 sec
+==71740== Profiling application: ./gaussian_regularm 399360
+==71740== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   68.59%  638.59ms        13  49.122ms     507ns  440.50ms  cudaFree
+                   31.23%  290.76ms         5  58.152ms     377ns  290.51ms  cudaMalloc
+                    0.11%  1.0311ms         3  343.69us  337.50us  347.18us  cuDeviceTotalMem
+                    0.05%  459.23us       297  1.5460us     126ns  83.058us  cuDeviceGetAttribute
+                    0.01%  90.595us         3  30.198us  21.609us  36.190us  cuDeviceGetName
+                    0.00%  16.513us        18     917ns     361ns  6.4090us  cudaEventCreateWithFlags
+                    0.00%  13.762us         5  2.7520us  1.1020us  5.9210us  cudaDeviceSynchronize
+                    0.00%  11.137us        18     618ns     321ns  2.3280us  cudaEventDestroy
+                    0.00%  7.3720us         3  2.4570us     345ns  5.0380us  cudaGetDevice
+                    0.00%  6.1480us         1  6.1480us  6.1480us  6.1480us  cuDeviceGetPCIBusId
+                    0.00%  5.1590us         2  2.5790us  2.2890us  2.8700us  cuInit
+                    0.00%  5.0920us        12     424ns     275ns  1.5200us  cudaDeviceGetAttribute
+                    0.00%  2.4260us         5     485ns     189ns  1.1950us  cuDeviceGetCount
+                    0.00%  1.8170us         4     454ns     172ns     990ns  cuDeviceGet
+                    0.00%  1.3620us         4     340ns     154ns     881ns  cudaMemcpy
+                    0.00%  1.1260us         2     563ns     508ns     618ns  cuDriverGetVersion
+                    0.00%  1.1010us         1  1.1010us  1.1010us  1.1010us  cudaGetSymbolAddress
+                    0.00%     790ns         3     263ns     254ns     273ns  cuDeviceGetUuid
+WG size of kernel 1 = 512, WG size of kernel 2= 4 X 4
+==71759== NVPROF is profiling process 71759, command: ./gaussian_regularm 409600
+
+Time total (including memory transfers)	0.000099 sec
+==71759== Profiling application: ./gaussian_regularm 409600
+==71759== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   71.06%  844.60ms        13  64.970ms     698ns  579.14ms  cudaFree
+                   28.73%  341.48ms         5  68.295ms     680ns  341.15ms  cudaMalloc
+                    0.13%  1.6017ms         3  533.91us  526.33us  546.85us  cuDeviceTotalMem
+                    0.05%  600.81us       297  2.0220us     180ns  88.687us  cuDeviceGetAttribute
+                    0.01%  101.24us         3  33.747us  25.464us  38.035us  cuDeviceGetName
+                    0.01%  73.455us         5  14.691us  1.6940us  62.628us  cudaDeviceSynchronize
+                    0.00%  26.387us        18  1.4650us     831ns  8.8220us  cudaEventCreateWithFlags
+                    0.00%  16.023us        18     890ns     745ns  2.3640us  cudaEventDestroy
+                    0.00%  10.390us         3  3.4630us     696ns  7.3060us  cudaGetDevice
+                    0.00%  9.6210us        12     801ns     633ns  1.9930us  cudaDeviceGetAttribute
+                    0.00%  7.5630us         1  7.5630us  7.5630us  7.5630us  cuDeviceGetPCIBusId
+                    0.00%  6.3450us         2  3.1720us  2.5830us  3.7620us  cuInit
+                    0.00%  2.8710us         5     574ns     286ns  1.1240us  cuDeviceGetCount
+                    0.00%  2.4760us         4     619ns     349ns  1.3350us  cudaMemcpy
+                    0.00%  2.3570us         4     589ns     384ns  1.0730us  cuDeviceGet
+                    0.00%  1.8080us         1  1.8080us  1.8080us  1.8080us  cudaGetSymbolAddress
+                    0.00%  1.3060us         3     435ns     332ns     501ns  cuDeviceGetUuid
+                    0.00%  1.2910us         2     645ns     600ns     691ns  cuDriverGetVersion
