@@ -39,12 +39,6 @@ Additional input files can be created with the matrixGenerator.py file in the da
 
 Gaussian Elimination Usage
 
-    gaussianElimination -f [filename] -s [size] [-hqt] [-p [int] -d [int]]
-    
-    example:
-    $ ./gaussianElimination ../../data/gaussian/matrix4.txt
-    
-    -f filename  the filename that holds the matrix data
     -s size      generate input matrix internally
       
     -h, --help   Display the help file
