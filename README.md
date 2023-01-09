@@ -38,8 +38,8 @@ Also in each folder, there is a corresponding `run.sh` file that is used to prof
 ## File Structure
 
 This project mainly consists of the following files and directories:
-
 - cuBLAS: This directory contains the source code for the project.  
+  - Compilation_Execution_Plot.ipynb: This jupyter notebook file contains compliation, execution and plotting of cu files using cuBLAS library.
   - gaussian:  
     - common: This directory required to run the executables.   
     - managedm: This directory contains implementation of gaussian using managed memory in `gaussian_manegedm.cu`.  
