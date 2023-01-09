@@ -37,7 +37,7 @@ Also in each folder, there is a corresponding `run.sh` file that is used to prof
 
 ## File Structure
 
-This project consists of the following files and directories:
+This project mainly consists of the following files and directories:
 
 - cuBLAS: This directory contains the source code for the project.  
   - gaussian:  
