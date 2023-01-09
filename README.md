@@ -51,5 +51,5 @@ This project mainly consists of the following files and directories:
   - lud/cuda: 
     - lud_kernel.cu: This file contains kernel function.  
     - lud.cu: This file contains main function.  
- - cuSOLVER: This file contains the main function of the program.  
+ - cuSOLVER: This directory contains the main function of the program.  
     - getrf: `cusolver_getrf_example.cu` is the cu file using cuSOLVER library to implement both gaussian and lud algorithm.
