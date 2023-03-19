@@ -1,5 +1,5 @@
-# DD2360HT22Project
-## Group 7 - Optimizing Rodinia Benchmarks with Nvidia Libraries
+# Optimizing Rodinia Benchmarks with Nvidia Libraries
+
 This project aims to improve the performance of the [Rodinia benchmarks](https://www.cs.virginia.edu/rodinia/doku.php) by using [Nvidia libraries](https://www.cs.virginia.edu/rodinia/doku.php) such as cuSOLVER and cuBLAS.
 
 ## Table of Contents
